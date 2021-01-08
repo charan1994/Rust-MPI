@@ -23,17 +23,12 @@ fn main() {
     println!("Rank {} is sending the message {:?}",rank,send_buffer);
     world.barrier();
 
-    let t = UserDatatype::contiguous(3, &Rank::equivalent_datatype());
     let status;
     {
-        let v1 = unsafe {View::with_count_and_datatype(&send_buffer[..], 1, &t)};
-        let mut v2 = unsafe {MutView::with_count_and_datatype(&mut receive_buffer, 1, &t)};
-        status = p2p::send_receive_into(&v1, &next_process, &mut v2, &previous_process);
+        status = p2p::send_receive_into(&send_buffer, &next_process, &mut receive_buffer, &previous_process);
     }
 
     println!("Rank {} received message: {:?}, status: {:?}",rank, receive_buffer, status);
     world.barrier();
-
-
 
 }
