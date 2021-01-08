@@ -18,7 +18,7 @@ fn main() {
     //previous rank is either lower rank or n-1 ie last rank for the first rank
 
     let send_buffer = (1..).map(|x| rank * x + x).take(3).collect::<Vec<_>>();
-    let receive_buffer = std::iter::repeat(-1).take(3).collect::<Vec<_>>();
+    let mut receive_buffer = std::iter::repeat(-1).take(3).collect::<Vec<_>>();
     
     println!("Rank {} is sending the message {:?}",rank,send_buffer);
     world.barrier();
