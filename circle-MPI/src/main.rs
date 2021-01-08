@@ -1,8 +1,6 @@
 extern crate mpi;
 
-use mpi::datatype::{MutView, UserDatatype, View};
 use mpi::point_to_point as p2p;
-use mpi::topology::Rank;
 use mpi::traits::*;
 
 fn main() {
@@ -17,8 +15,8 @@ fn main() {
     let previous_process = world.process_at_rank(previous_rank);
     //previous rank is either lower rank or n-1 ie last rank for the first rank
 
-    let send_buffer = (1..).map(|x| rank * x + x).take(3).collect::<Vec<_>>();
-    let mut receive_buffer = std::iter::repeat(-1).take(3).collect::<Vec<_>>();
+    let send_buffer = 10;
+    let mut receive_buffer = -1;
     
     println!("Rank {} is sending the message {:?}",rank,send_buffer);
     world.barrier();
