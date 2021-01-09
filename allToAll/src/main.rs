@@ -8,10 +8,11 @@ fn main() {
     let world = universe.world();
     let size = world.size(); // number of processes which are running
     let rank = world.rank(); //rank of current process
-    let message_size = 1024 * 1024; //this is the number of i32 ie 4 byte ints being sent as message
+    let message_size: u32 = 1024 * 1024; //this is the number of i32 ie 4 byte ints being sent as message
+    let receive_size: u32 = message_size * size as u32;
 
-    let send_buffer = (1..).map(|x| rank * x + x).take(message_size).collect::<Vec<_>>();
-    let mut receive_buffer = std::iter::repeat(-1).take(size*message_size).collect::<Vec<_>>();
+    let send_buffer = (1..).map(|x| rank * x + x).take(message_size as usize).collect::<Vec<_>>();
+    let mut receive_buffer = std::iter::repeat(-1).take(receive_size as usize).collect::<Vec<_>>();
 
     println!("Rank {} is sending the message {:?}",rank,send_buffer);
 
