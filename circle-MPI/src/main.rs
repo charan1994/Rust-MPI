@@ -15,8 +15,8 @@ fn main() {
     let previous_process = world.process_at_rank(previous_rank);
     //previous rank is either lower rank or n-1 ie last rank for the first rank
 
-    let send_buffer = 10;
-    let mut receive_buffer = -1;
+    let send_buffer = [1,2,3,4,5,6,7,8,9,10];
+    let mut receive_buffer: [i32,10];
     
     println!("Rank {} is sending the message {:?}",rank,send_buffer);
     world.barrier();
