@@ -15,15 +15,15 @@ fn main() {
     let previous_process = world.process_at_rank(previous_rank);
     //previous rank is either lower rank or n-1 ie last rank for the first rank
 
-    let send_buffer = [1,2,3,4,5,6,7,8,9,10];
-    let mut receive_buffer: [i32,10];
+    let send_buffer = (1..).map(|x| rank * x + x).take(3).collect::<Vec<_>>();
+    let mut receive_buffer = std::iter::repeat(-1).take(3).collect::<Vec<_>>();
     
     println!("Rank {} is sending the message {:?}",rank,send_buffer);
     world.barrier();
 
     let status;
     {
-        status = p2p::send_receive_into(&send_buffer, &next_process, &mut receive_buffer, &previous_process);
+        status = p2p::send_receive_into(&send_buffer[..], &next_process, &mut receive_buffer[..], &previous_process);
     }
 
     println!("Rank {} received message: {:?}, status: {:?}",rank, receive_buffer, status);
