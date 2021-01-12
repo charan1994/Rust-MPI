@@ -2,6 +2,7 @@ extern crate mpi;
 
 use mpi::point_to_point as p2p;
 use mpi::traits::*;
+use std::time::{Duration, Instant};
 
 fn main() {
     let universe = mpi::initialize().unwrap(); //MPI COMM world setup equivalent 
@@ -14,7 +15,7 @@ fn main() {
     let previous_rank = if rank > 0 {rank - 1} else {size -1}; 
     let previous_process = world.process_at_rank(previous_rank);
     //previous rank is either lower rank or n-1 ie last rank for the first rank
-    let message_size = 1024 * 1024//this is the number of i32 ie 4 byte ints being sent as message
+    let message_size = 1024 * 1024; //this is the number of i32 ie 4 byte ints being sent as message
 
     let send_buffer = (1..).map(|x| rank * x + x).take(message_size).collect::<Vec<_>>();
     let mut receive_buffer = std::iter::repeat(-1).take(message_size).collect::<Vec<_>>();
