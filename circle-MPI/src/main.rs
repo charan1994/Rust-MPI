@@ -10,9 +10,9 @@ fn main() {
     let size = world.size(); // number of processes which are running
     let rank = world.rank(); //rank of current process
 
-    let next_rank = if rank + 1 < size {rank + 1} else {0}; //next rank is either higher rank or 0 for the last rank
+    let next_rank = (rank + 1) % size; //next rank is either higher rank or 0 for the last rank
     let next_process = world.process_at_rank(next_rank);
-    let previous_rank = if rank > 0 {rank - 1} else {size -1}; 
+    let previous_rank = (rank - 1) % size;
     let previous_process = world.process_at_rank(previous_rank);
     //previous rank is either lower rank or n-1 ie last rank for the first rank
     let message_size = 1024 * 1024; //this is the number of i32 ie 4 byte ints being sent as message
