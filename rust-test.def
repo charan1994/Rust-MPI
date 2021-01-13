@@ -3,22 +3,22 @@ From: debian:stretch
 
 %environment
 
-    #export I_MPI_ROOT=/intel-mpi
-    #export PLATFORM=intel64
+    export I_MPI_ROOT=/intel-mpi
+    export PLATFORM=intel64
 
-    #LD_LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LD_LIBRARY_PATH}"; export LD_LIBRARY_PATH
-    #LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
-    #CPATH="${I_MPI_ROOT}/${PLATFORM}/include:${CPATH}"; export CPATH
+    LD_LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LD_LIBRARY_PATH}"; export LD_LIBRARY_PATH
+    LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
+    CPATH="${I_MPI_ROOT}/${PLATFORM}/include:${CPATH}"; export CPATH
 
-    #PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/bin:${PATH}"; export PATH
+    PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/bin:${PATH}"; export PATH
 
-    #LD_LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib:${LD_LIBRARY_PATH}"; export LD_LIBRARY_PATH
-    #LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
+    LD_LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib:${LD_LIBRARY_PATH}"; export LD_LIBRARY_PATH
+    LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
 
-    #FI_PROVIDER_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib/prov"; export FI_PROVIDER_PATH
+    FI_PROVIDER_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib/prov"; export FI_PROVIDER_PATH
 
 %post
-    #MPI_ROOT=/intel-mpi
+    MPI_ROOT=/intel-mpi
 
     # package IB, RDMA and SHMEM components
     PACKAGES="g++ librdmacm1 curl ca-certificates"
@@ -27,11 +27,10 @@ From: debian:stretch
     apt-get install -y --no-install-recommends $PACKAGES
 
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-    export PATH=~/.cargo/bin:$PATH
     . $HOME/.cargo/env
 
     # cmake or any other build system goes here
-    cd /opt/hello-rust
+    cd /opt/allToAll
     cargo build --release
 
     # clean unwanted content (including MPI)
@@ -43,9 +42,9 @@ From: debian:stretch
     rm -rf /intel-mpi
 
 %runscript
-    . $HOME/.cargo/env && cd /opt/hello-rust/target/release && ./hello-rust
+    . $HOME/.cargo/env && cd /opt/allToAll/target/release && ./allToAll
 
 %files
     # as per on access node /util/academic/intel/20.1/compilers_and_libraries_2020.1.217/linux/mpi /intel-mpi
-    hello-rust/ /opt/
+    allToAll/ /opt/
 
