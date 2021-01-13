@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: debian:testing-slim
+From: debian:stretch
 
 %environment
 
@@ -21,16 +21,18 @@ From: debian:testing-slim
     #MPI_ROOT=/intel-mpi
 
     # package IB, RDMA and SHMEM components
-    PACKAGES="g++ librdmacm1 ibverbs-providers libpsm2-2"
+    PACKAGES="g++ librdmacm1 curl ca-certificates"
 
-    apt update -y
-    apt install -y --no-install-recommends $PACKAGES
+    apt-get update -y
+    apt-get install -y --no-install-recommends $PACKAGES
 
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     export PATH=~/.cargo/bin:$PATH
+    . $HOME/.cargo/env
 
     # cmake or any other build system goes here
-    cargo build
+    cd /opt/hello-rust
+    cargo build --release
 
     # clean unwanted content (including MPI)
     apt clean
@@ -41,8 +43,9 @@ From: debian:testing-slim
     rm -rf /intel-mpi
 
 %runscript
-    cargo run
+    . $HOME/.cargo/env && cd /opt/hello-rust/target/release && ./hello-rust
 
 %files
     # as per on access node /util/academic/intel/20.1/compilers_and_libraries_2020.1.217/linux/mpi /intel-mpi
-    hell-rust/ /opt/
+    hello-rust/ /opt/
+
