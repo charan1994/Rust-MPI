@@ -1,0 +1,47 @@
+Bootstrap: docker
+From: debian:testing-slim
+
+%environment
+
+    #export I_MPI_ROOT=/intel-mpi
+    #export PLATFORM=intel64
+
+    #LD_LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LD_LIBRARY_PATH}"; export LD_LIBRARY_PATH
+    #LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
+    #CPATH="${I_MPI_ROOT}/${PLATFORM}/include:${CPATH}"; export CPATH
+
+    #PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/bin:${PATH}"; export PATH
+
+    #LD_LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib:${LD_LIBRARY_PATH}"; export LD_LIBRARY_PATH
+    #LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
+
+    #FI_PROVIDER_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib/prov"; export FI_PROVIDER_PATH
+
+%post
+    #MPI_ROOT=/intel-mpi
+
+    # package IB, RDMA and SHMEM components
+    PACKAGES="g++ librdmacm1 ibverbs-providers libpsm2-2"
+
+    apt update -y
+    apt install -y --no-install-recommends $PACKAGES
+
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    export PATH=~/.cargo/bin:$PATH
+
+    # cmake or any other build system goes here
+    cargo build
+
+    # clean unwanted content (including MPI)
+    apt clean
+
+    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/tmp/*
+
+    rm -rf /intel-mpi
+
+%runscript
+    cargo run
+
+%files
+    hell-rust/ /opt/
