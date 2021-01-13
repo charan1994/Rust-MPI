@@ -44,4 +44,5 @@ From: debian:testing-slim
     cargo run
 
 %files
+    # as per on access node /util/academic/intel/20.1/compilers_and_libraries_2020.1.217/linux/mpi /intel-mpi
     hell-rust/ /opt/
