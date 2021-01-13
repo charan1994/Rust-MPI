@@ -13,7 +13,7 @@ fn main() {
     let next_rank = (rank + 1) % size; //next rank is either higher rank or 0 for the last rank
     println!("Next rank: {:?}",next_rank);
     let next_process = world.process_at_rank(next_rank);
-    let previous_rank = (rank - 1) % size;
+    let previous_rank = ((rank - 1)as i32).rem_euclid(size);
     println!("Previous rank: {:?}",previous_rank);
     let previous_process = world.process_at_rank(previous_rank);
     //previous rank is either lower rank or n-1 ie last rank for the first rank
