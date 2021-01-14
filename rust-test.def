@@ -3,8 +3,8 @@ From: debian:stretch
 
 %environment
 
-    export I_MPI_ROOT=/opt/intel/oneapi/mpi/
-    export PLATFORM=2021.1.1
+    export I_MPI_ROOT=/opt/intel/oneapi/mpi/2021.1.1
+    export PLATFORM=
 
     LD_LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LD_LIBRARY_PATH}"; export LD_LIBRARY_PATH
     LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
@@ -18,7 +18,7 @@ From: debian:stretch
     FI_PROVIDER_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib/prov"; export FI_PROVIDER_PATH
 
 %post
-    MPI_ROOT=/opt/intel/oneapi/mpi/
+    MPI_ROOT=/opt/intel/oneapi/mpi/2021.1.1
 
     # package IB, RDMA and SHMEM components
     PACKAGES="g++ librdmacm1 curl ca-certificates autoconf automake libtool libltdl-dev libfabric-dev"
@@ -28,10 +28,12 @@ From: debian:stretch
 
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
     . $HOME/.cargo/env
+    source /opt/intel/oneapi/mpi/2021.1.1/env/vars.sh
+    #source /opt/intel/oneapi/compiler/2021.1.2/env/vars.sh
 
     # cmake or any other build system goes here
     cd /opt/allToAll
-    cargo build --release
+    #cargo build --release
 
     # clean unwanted content (including MPI)
     apt clean
@@ -46,6 +48,7 @@ From: debian:stretch
 
 %files
     # as per on access node /util/academic/intel/20.1/compilers_and_libraries_2020.1.217/linux/mpi /intel-mpi
-    /opt/intel/oneapi/mpi/ /opt/intel/oneapi/mpi/
+    /opt/intel/oneapi/mpi/2021.1.1/ /opt/intel/oneapi/mpi/
+    #/opt/intel/oneapi/compiler/2021.1.2/ /opt/intel/oneapi/compiler/
     allToAll/ /opt/
 
