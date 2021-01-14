@@ -18,10 +18,10 @@ From: debian:stretch
     FI_PROVIDER_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib/prov"; export FI_PROVIDER_PATH
 
 %post
-    MPI_ROOT=/opt/intel/oneapi/mpi/2021.1.1
+    MPI_ROOT=/opt/intel/oneapi/mpi/
 
     # package IB, RDMA and SHMEM components
-    PACKAGES="g++ librdmacm1 curl ca-certificates autoconf automake libtool libltdl-dev libfabric-dev texinfo"
+    PACKAGES="g++ librdmacm1 curl ca-certificates autoconf automake libtool libltdl-dev libfabric-dev"
 
     apt-get update -y
     apt-get install -y --no-install-recommends $PACKAGES
@@ -46,6 +46,6 @@ From: debian:stretch
 
 %files
     # as per on access node /util/academic/intel/20.1/compilers_and_libraries_2020.1.217/linux/mpi /intel-mpi
-    /opt/intel/oneapi/ /opt/intel/oneapi/
+    /opt/intel/oneapi/mpi/ /opt/intel/oneapi/mpi/
     allToAll/ /opt/
 
