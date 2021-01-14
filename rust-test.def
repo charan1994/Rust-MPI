@@ -21,7 +21,7 @@ From: debian:stretch
     MPI_ROOT=/mpi-root
 
     # package IB, RDMA and SHMEM components
-    PACKAGES="g++ librdmacm1 curl ca-certificates"
+    PACKAGES="g++ librdmacm1 curl ca-certificates autoconf"
 
     apt-get update -y
     apt-get install -y --no-install-recommends $PACKAGES
@@ -46,6 +46,6 @@ From: debian:stretch
 
 %files
     # as per on access node /util/academic/intel/20.1/compilers_and_libraries_2020.1.217/linux/mpi /intel-mpi
-    /opt/intel/oneapi/mpi/2021.1.1 /intel-mpi
+    /opt/intel/oneapi/mpi/2021.1.1/ /intel-mpi
     allToAll/ /opt/
 
