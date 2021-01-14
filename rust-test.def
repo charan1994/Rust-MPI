@@ -3,8 +3,8 @@ From: debian:stretch
 
 %environment
 
-    export I_MPI_ROOT=/intel-mpi
-    export PLATFORM=intel64
+    export I_MPI_ROOT=/opt/intel/oneapi/mpi
+    export PLATFORM=2021.1.1
 
     LD_LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LD_LIBRARY_PATH}"; export LD_LIBRARY_PATH
     LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
@@ -18,7 +18,7 @@ From: debian:stretch
     FI_PROVIDER_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib/prov"; export FI_PROVIDER_PATH
 
 %post
-    MPI_ROOT=/intel-mpi
+    MPI_ROOT=/opt/intel/oneapi/mpi
 
     # package IB, RDMA and SHMEM components
     PACKAGES="g++ librdmacm1 curl ca-certificates"
@@ -26,7 +26,7 @@ From: debian:stretch
     apt-get update -y
     apt-get install -y --no-install-recommends $PACKAGES
 
-    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
     . $HOME/.cargo/env
 
     # cmake or any other build system goes here
