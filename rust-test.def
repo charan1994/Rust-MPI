@@ -21,7 +21,8 @@ From: debian:stretch
     MPI_ROOT=/mpi-root
 
     # package IB, RDMA and SHMEM components
-    PACKAGES="g++ librdmacm1 curl ca-certificates autoconf"
+    PACKAGES="g++ librdmacm1 curl ca-certificates autoconf automake libtool libltdl-dev"
+    pkg-config --libs libffi
 
     apt-get update -y
     apt-get install -y --no-install-recommends $PACKAGES
