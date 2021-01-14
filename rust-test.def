@@ -21,7 +21,7 @@ From: debian:stretch
     MPI_ROOT=/opt/intel/oneapi/mpi/
 
     # package IB, RDMA and SHMEM components
-    PACKAGES="g++ librdmacm1 curl ca-certificates autoconf automake libtool libltdl-dev libfabric-dev"
+    PACKAGES="g++ librdmacm1 curl ca-certificates autoconf automake libtool libltdl-dev libfabric-dev texinfo"
 
     apt-get update -y
     apt-get install -y --no-install-recommends $PACKAGES
