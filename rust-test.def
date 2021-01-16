@@ -3,21 +3,22 @@ From: debian:stretch
 
 %environment
 
-    export I_MPI_ROOT=/opt/intel/oneapi/mpi/2021.1.1
-    export PLATFORM=
+    #export I_MPI_ROOT=/opt/intel/oneapi/mpi/2021.1.1
+    #export PLATFORM=
 
-    LD_LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LD_LIBRARY_PATH}"; export LD_LIBRARY_PATH
-    LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
-    CPATH="${I_MPI_ROOT}/${PLATFORM}/include:${CPATH}"; export CPATH
+    #LD_LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LD_LIBRARY_PATH}"; export LD_LIBRARY_PATH
+    #LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
+    #CPATH="${I_MPI_ROOT}/${PLATFORM}/include:${CPATH}"; export CPATH
 
-    PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/bin:${PATH}"; export PATH
+    #PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/bin:${PATH}"; export PATH
 
-    LD_LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib:${LD_LIBRARY_PATH}"; export LD_LIBRARY_PATH
-    LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
+    #LD_LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib:${LD_LIBRARY_PATH}"; export LD_LIBRARY_PATH
+    #LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
 
-    FI_PROVIDER_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib/prov"; export FI_PROVIDER_PATH
-    bash -c "source /opt/intel/oneapi/mpi/2021.1.1/env/vars.sh"
-    bash -c "source $HOME/.cargo/env"
+    #FI_PROVIDER_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib/prov"; export FI_PROVIDER_PATH
+    #for my machine
+    #bash -c "source /opt/intel/oneapi/mpi/2021.1.1/env/vars.sh" 
+    #bash -c "source $HOME/.cargo/env"
 
 %post
     #!/bin/bash
@@ -42,13 +43,15 @@ From: debian:stretch
     # clean unwanted content (including MPI)
     apt clean
 
-    #rm -rf /var/lib/apt/lists/*
-    #rm -rf /var/tmp/*
+    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/tmp/*
 
-    #rm -rf /intel-mpi
+    rm -rf $MPI_ROOT
 
 %runscript
-    bash -c "source $HOME/.cargo/env && cd /opt/allToAll/target/release && ./allToAll"
+    # bash -c "source $HOME/.cargo/env && cd /opt/allToAll/target/release && ./allToAll" for my machine 
+    # run command would be singularity run --bind /opt/intel/oneapi/mpi/2021.1.1:/opt/intel/oneapi/mpi/2021.1.1 run-test.simg
+    ./allToAll $@
 
 %files
     # as per on access node /util/academic/intel/20.1/compilers_and_libraries_2020.1.217/linux/mpi /intel-mpi
