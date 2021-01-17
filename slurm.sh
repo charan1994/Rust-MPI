@@ -16,3 +16,4 @@ date
 module load intel-mpi/2020.1
 # singularity is already part of runtime so need to import new modules
 echo "Running with 1 node"
+srun --mpi=pmi2 singularity run --bind $I_MPI_ROOT/intel64:/opt/intel/oneapi/mpi/2021.1.1 run-test.simg

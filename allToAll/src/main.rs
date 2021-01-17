@@ -13,7 +13,7 @@ fn main() {
     let send_buffer = (1..).map(|x| rank * x + x).take(message_size as usize).collect::<Vec<_>>();
     let mut receive_buffer = std::iter::repeat(-1).take(message_size as usize).collect::<Vec<_>>();
 
-    println!("Rank {} is sending the message {:?}",rank,send_buffer);
+    // println!("Rank {} is sending the message {:?}",rank,send_buffer); you can use this just while debugging for smaller size message sizes
 
     world.barrier();
     let start = Instant::now();
@@ -23,7 +23,9 @@ fn main() {
     world.barrier();
     let duration = start.elapsed();
 
-    println!("Rank {} received message: {:?}",rank, receive_buffer);
-    println!("Time spent in the code: {:?}",duration);
+    // println!("Rank {} received message: {:?}",rank, receive_buffer); you can use this just while debugging for smaller size message sizes
+    if (rank==0){
+        println!("Time spent in the code: {:?}",duration);
+    }
 
 }
