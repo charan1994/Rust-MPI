@@ -3,26 +3,24 @@ From: debian:stretch
 
 %environment
 
-    #export I_MPI_ROOT=/opt/intel/oneapi/mpi/2021.1.1
-    #export PLATFORM=
+    export I_MPI_ROOT=/opt/intel/oneapi/mpi/2021.1.1
+    export PLATFORM=
 
-    #LD_LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LD_LIBRARY_PATH}"; export LD_LIBRARY_PATH
-    #LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
-    #CPATH="${I_MPI_ROOT}/${PLATFORM}/include:${CPATH}"; export CPATH
+    LD_LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LD_LIBRARY_PATH}"; export LD_LIBRARY_PATH
+    LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
+    CPATH="${I_MPI_ROOT}/${PLATFORM}/include:${CPATH}"; export CPATH
 
-    #PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/bin:${PATH}"; export PATH
+    PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/bin:${PATH}"; export PATH
 
-    #LD_LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib:${LD_LIBRARY_PATH}"; export LD_LIBRARY_PATH
-    #LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
+    LD_LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib:${LD_LIBRARY_PATH}"; export LD_LIBRARY_PATH
+    LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
 
-    #FI_PROVIDER_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib/prov"; export FI_PROVIDER_PATH
+    FI_PROVIDER_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib/prov"; export FI_PROVIDER_PATH
     #for my machine
     #bash -c "source /opt/intel/oneapi/mpi/2021.1.1/env/vars.sh" 
     #bash -c "source $HOME/.cargo/env"
 
 %post
-    #!/bin/bash
-    bash
     MPI_ROOT=/opt/intel/oneapi/mpi/2021.1.1
 
     # package IB, RDMA and SHMEM components
@@ -51,6 +49,7 @@ From: debian:stretch
 %runscript
     # bash -c "source $HOME/.cargo/env && cd /opt/allToAll/target/release && ./allToAll" for my machine 
     # run command would be singularity run --bind /opt/intel/oneapi/mpi/2021.1.1:/opt/intel/oneapi/mpi/2021.1.1 run-test.simg
+    cd /opt/allToAll/target/release
     ./allToAll $@
 
 %files
