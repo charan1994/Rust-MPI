@@ -9,4 +9,3 @@ edition = "2018"
 [dependencies.mpi]
 git = "https://github.com/rsmpi/rsmpi.git"
 default-features = false
-
