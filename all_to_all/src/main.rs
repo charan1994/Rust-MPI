@@ -21,7 +21,8 @@ fn main() {
     world.barrier();
     let duration = start.elapsed();
 
-    if (rank==0){
+    if rank==0{
+        println!("Size of the MPI_COMM_WORLD: {:?}",size);
         println!("Time spent in the code: {:?}",duration);
     }
 
