@@ -3,6 +3,9 @@ From: debian:stretch
 
 %environment
 
+    # This region is used to set environment based on Intel MPI mpivars.sh, these should match between build and execute host
+    
+    # the root can be intel-mpi instead if intel-mpi is used instead of oneapi and platform can be of the form intel64  
     export I_MPI_ROOT=/opt/intel/oneapi/mpi/2021.1.1
     export PLATFORM=
 
@@ -16,26 +19,30 @@ From: debian:stretch
     LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
 
     FI_PROVIDER_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib/prov"; export FI_PROVIDER_PATH
-    #for my machine
-    #bash -c "source /opt/intel/oneapi/mpi/2021.1.1/env/vars.sh" 
-    #bash -c "source $HOME/.cargo/env"
+    
+    # used for development and testing singularity container on my machine. 
+    # bash -c "source /opt/intel/oneapi/mpi/2021.1.1/env/vars.sh"
+    # bash -c "source $HOME/.cargo/env"
 
 %post
     MPI_ROOT=/opt/intel/oneapi/mpi/2021.1.1
     PROGRAM_NAME=all_to_all
 
-    # package IB, RDMA and SHMEM components
+    # packages required to install rust, auto compiling of few crates"
     PACKAGES="g++ librdmacm1 curl ca-certificates autoconf automake libtool libltdl-dev libfabric-dev wget lsb-release software-properties-common gnupg apt-transport-https texinfo"
     apt-get update -y
     apt-get install -y --no-install-recommends $PACKAGES
 
+    # installing lates llvm, clang, lld and other tools 
     wget https://apt.llvm.org/llvm.sh
     chmod +x llvm.sh
     ./llvm.sh
 
+    # installing rust
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
-    # cmake or any other build system goes here
+    # cmake or any other build system goes here. In this case cargo build is run. The libclang path is used for compiling a dependent crate and source .cargo to include cargo cmd in PATH
+    # sourcing vars to apped all the mpi and c based libraries and bin to PATH and other environment variables
     cd /opt/$PROGRAM_NAME
     bash -c "export LIBCLANG_PATH=/usr/lib/x86_64-linux-gnu && source $HOME/.cargo/env && source $MPI_ROOT/env/vars.sh && cargo build --release"
 
@@ -48,13 +55,12 @@ From: debian:stretch
     rm -rf $MPI_ROOT
 
 %runscript
-    # bash -c "source $HOME/.cargo/env && cd /opt/PROGRAM_NAME/target/release && ./PROGRAM_NAME" for my machine 
-    # run command would be singularity run --bind /opt/intel/oneapi/mpi/2021.1.1:/opt/intel/oneapi/mpi/2021.1.1 run-test.simg
+    # bash -c "source $HOME/.cargo/env && cd /opt/PROGRAM_NAME/target/release && ./PROGRAM_NAME" written to test on dev machine
+    # run command would be singularity run --bind /opt/intel/oneapi/mpi/2021.1.1:/opt/intel/oneapi/mpi/2021.1.1 run-test.simg for testing on dev machine
+    # run command for the runtime of intel-mpi/2020.1 is singularity run --bind $I_MPI_ROOT/intel64:/opt/intel/oneapi/mpi/2021.1.1 run-test.simg where $I_MPI_ROOT is set to where mpi resides on the machine 
     cd /opt/$PROGRAM_NAME/target/release
     ./$PROGRAM_NAME $@
 
 %files
-    # as per on access node /util/academic/intel/20.1/compilers_and_libraries_2020.1.217/linux/mpi /intel-mpi
     /opt/intel/oneapi/mpi/2021.1.1/ /opt/intel/oneapi/mpi/
-    #/opt/intel/oneapi/compiler/2021.1.2/ /opt/intel/oneapi/compiler/
-    allToAll/ /opt/
+    $PROGRAM_NAME/ /opt/
