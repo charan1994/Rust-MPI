@@ -58,6 +58,7 @@ From: debian:stretch
     # bash -c "source $HOME/.cargo/env && cd /opt/PROGRAM_NAME/target/release && ./PROGRAM_NAME" written to test on dev machine
     # run command would be singularity run --bind /opt/intel/oneapi/mpi/2021.1.1:/opt/intel/oneapi/mpi/2021.1.1 run-test.simg for testing on dev machine
     # run command for the runtime of intel-mpi/2020.1 is singularity run --bind $I_MPI_ROOT/intel64:/opt/intel/oneapi/mpi/2021.1.1 run-test.simg where $I_MPI_ROOT is set to where mpi resides on the machine 
+    PROGRAM_NAME=all_to_all
     cd /opt/$PROGRAM_NAME/target/release
     ./$PROGRAM_NAME $@
 
