@@ -64,4 +64,4 @@ From: debian:stretch
 
 %files
     /opt/intel/oneapi/mpi/2021.1.1/ /opt/intel/oneapi/mpi/
-    $PROGRAM_NAME/ /opt/
+    ./$PROGRAM_NAME/ /opt/
