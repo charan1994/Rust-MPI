@@ -42,7 +42,7 @@ From: debian:stretch
 
 %runscript    
     PROGRAM_NAME=allToAllC
-    cd /opt/$PROGRAM_NAME/target/release
+    cd /opt/$PROGRAM_NAME
     ./$PROGRAM_NAME $@
 
 %files
