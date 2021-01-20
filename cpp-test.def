@@ -31,7 +31,7 @@ From: debian:stretch
     apt-get install -y --no-install-recommends $PACKAGES
     
     cd /opt/$PROGRAM_NAME
-    mpiicc -O2 -o $PROGRAM_NAME
+    mpicxx -std=c++17 -O2 -o $PROGRAM_NAME
 
     apt clean
 
