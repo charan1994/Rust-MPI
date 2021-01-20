@@ -21,7 +21,9 @@ fn main() {
     
     world.barrier();
     let start = Instant::now();
+    
     p2p::send_receive_into(&send_buffer[..], &next_process, &mut receive_buffer[..], &previous_process);
+    
     world.barrier();
     let duration = start.elapsed();
 
