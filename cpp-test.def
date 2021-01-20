@@ -1,0 +1,50 @@
+Bootstrap: docker
+From: debian:stretch
+
+%environment
+
+    # This region is used to set environment based on Intel MPI mpivars.sh, these should match between build and execute host
+    
+    # the root can be intel-mpi instead if intel-mpi is used instead of oneapi and platform can be of the form intel64  
+    export I_MPI_ROOT=/opt/intel/oneapi/mpi/2021.1.1
+    export PLATFORM=
+
+    LD_LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LD_LIBRARY_PATH}"; export LD_LIBRARY_PATH
+    LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/lib/release:${I_MPI_ROOT}/${PLATFORM}/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
+    CPATH="${I_MPI_ROOT}/${PLATFORM}/include:${CPATH}"; export CPATH
+
+    PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/bin:${PATH}"; export PATH
+
+    LD_LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib:${LD_LIBRARY_PATH}"; export LD_LIBRARY_PATH
+    LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
+
+    FI_PROVIDER_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib/prov"; export FI_PROVIDER_PATH
+
+
+%post
+    MPI_ROOT=/opt/intel/oneapi/mpi/2021.1.1
+    PROGRAM_NAME=all_to_all
+
+    PACKAGES="g++ librdmacm1"
+
+    apt-get update -y
+    apt-get install -y --no-install-recommends $PACKAGES
+    
+    cd /opt/$PROGRAM_NAME
+    mpiicc -O2 -o $PROGRAM_NAME
+
+    apt clean
+
+    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/tmp/*
+
+    rm -rf $MPI_ROOT
+
+%runscript    
+    PROGRAM_NAME=all_to_all
+    cd /opt/$PROGRAM_NAME/target/release
+    ./$PROGRAM_NAME $@
+
+%files
+    /opt/intel/oneapi/mpi/2021.1.1/ /opt/intel/oneapi/mpi/
+    ./$PROGRAM_NAME/ /opt/
