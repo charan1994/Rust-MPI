@@ -27,12 +27,8 @@ int main(int argc, char *argv[])
     MPI_Barrier(MPI_COMM_WORLD);
     auto t1 = MPI_Wtime();
 
-    for (std::vector<int>::const_iterator i = receive_buffer.begin(); i != receive_buffer.end(); ++i)
-        std::cout << *i << ", ";
-
     if (rank == 0)
     {        
-        std::cout << std::endl;
         std::cout << "Size of the MPI_COMM_WORLD: " + std::to_string(size) << std::endl;
         std::cout << "Time spent in code: " + std::to_string(t1 - t0) << std::endl;
     }
