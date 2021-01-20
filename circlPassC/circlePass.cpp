@@ -24,7 +24,8 @@ int main(int argc, char *argv[])
     MPI_Barrier(MPI_COMM_WORLD);
     auto t0 = MPI_Wtime();
 
-    MPI_Sendrecv(send_buffer.data(), 1, MPI_INT, next_rank, 111, receive_buffer.data(), 1, MPI_INT, previous_rank, 111, MPI_COMM_WORLD);
+    MPI_Status stat;
+    MPI_Sendrecv(send_buffer.data(), 1, MPI_INT, next_rank, 111, receive_buffer.data(), 1, MPI_INT, previous_rank, 111, MPI_COMM_WORLD, &stat);
 
     MPI_Barrier(MPI_COMM_WORLD);
     auto t1 = MPI_Wtime();
