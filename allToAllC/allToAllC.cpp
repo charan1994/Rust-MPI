@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
     if (rank == 0)
     {        
         std::cout << "Size of the MPI_COMM_WORLD: " + std::to_string(size) << std::endl;
-        std::cout << "Time spent in code: " + std::to_string(t1 - t0 * 1000) << "ms" << std::endl;
+        std::cout << "Time spent in code: " + std::to_string((t1 - t0) * 1000) << "ms" << std::endl;
     }
 
     return MPI_Finalize();
