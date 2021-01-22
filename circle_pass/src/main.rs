@@ -23,7 +23,7 @@ fn main() {
     
     let message_size = args[1].parse::<u64>().unwrap();
 
-    let send_buffer = (1..).take(message_size as uszie).collect::<Vec<_>>();
+    let send_buffer = (1..).take(message_size as usize).collect::<Vec<_>>();
     let mut receive_buffer = std::iter::repeat(-1).take(message_size as usize).collect::<Vec<_>>();
     
     world.barrier();
