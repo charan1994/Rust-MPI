@@ -2,15 +2,22 @@ extern crate mpi;
 
 use mpi::traits::*;
 use std::time::{Instant};
+use std::env;
 
 fn main() {
+    let args: Vec<String> = env::args().collect();
+    if args.len() < 2{
+        println!("Invalid number of arguments. Need n")
+        return
+    }
     let universe = mpi::initialize().unwrap();
     let world = universe.world();
     let size = world.size();
     let rank = world.rank();
-    let message_size: u32 = 1024 * 1024;
 
-    let send_buffer = (1..).map(|x| rank * x + x).take(message_size as usize).collect::<Vec<_>>();
+    let message_size = &args[1].parse::<u64>().unwrap();
+
+    let send_buffer = (1..).take(message_size as usize).collect::<Vec<_>>();
     let mut receive_buffer = std::iter::repeat(-1).take(message_size as usize).collect::<Vec<_>>();
 
     world.barrier();

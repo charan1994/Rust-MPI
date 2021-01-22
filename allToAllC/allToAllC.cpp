@@ -12,7 +12,12 @@ int main(int argc, char *argv[])
     MPI_Comm_size(MPI_COMM_WORLD, &size);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
-    unsigned int messageSize = 1032 * 1032;
+    if (argc < 2) {
+        if (rank == 0) std::cout << "usage: " << argv[0] << " n" << std::endl;
+        return MPI_Finalize();
+    }
+
+    unsigned long messageSize = std::stoul(argv[1]);
 
     std::vector<int> send_buffer(messageSize);
     std::vector<int> receive_buffer(messageSize);
@@ -30,7 +35,7 @@ int main(int argc, char *argv[])
     if (rank == 0)
     {        
         std::cout << "Size of the MPI_COMM_WORLD: " + std::to_string(size) << std::endl;
-        std::cout << "Time spent in code: " + std::to_string(t1 - t0) << std::endl;
+        std::cout << "Time spent in code: " + std::to_string(t1 - t0 * 1000) << "ms" << std::endl;
     }
 
     return MPI_Finalize();
