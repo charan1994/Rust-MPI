@@ -22,8 +22,29 @@ echo "Running with 1 node and 8 ranks"
 message_sizes=(1 8 16 32 64 128 256 512 1024 2048 4096 8192 16384 32768 65536 131072 262144 524288 1048576 2097152 4194304 8388608 16777216 33554432)
 
 for message_size in ${message_sizes[@]}; do
-    for turn in {1..5}; do
-        echo "running code for turn: $turn and message size: $message_size"
-        srun --mpi=pmi2 singularity run --bind $I_MPI_ROOT/intel64:/opt/intel/oneapi/mpi/2021.1.1 run-test.simg $message_size
+    for turn in {1..10}; do
+        echo "running all_to_all rust code for turn: $turn and message size: $message_size"
+        srun --mpi=pmi2 singularity run --bind $I_MPI_ROOT/intel64:/opt/intel/oneapi/mpi/2021.1.1 all_to_all.simg $message_size
+    done
+done
+
+for message_size in ${message_sizes[@]}; do
+    for turn in {1..10}; do
+        echo "running all_to_all c++ code for turn: $turn and message size: $message_size"
+        srun --mpi=pmi2 singularity run --bind $I_MPI_ROOT/intel64:/opt/intel/oneapi/mpi/2021.1.1 allToAllC.simg $message_size
+    done
+done
+
+for message_size in ${message_sizes[@]}; do
+    for turn in {1..10}; do
+        echo "running circle pass rust code for turn: $turn and message size: $message_size"
+        srun --mpi=pmi2 singularity run --bind $I_MPI_ROOT/intel64:/opt/intel/oneapi/mpi/2021.1.1 circle_pass.simg $message_size
+    done
+done
+
+for message_size in ${message_sizes[@]}; do
+    for turn in {1..10}; do
+        echo "running circle pass c++ code for turn: $turn and message size: $message_size"
+        srun --mpi=pmi2 singularity run --bind $I_MPI_ROOT/intel64:/opt/intel/oneapi/mpi/2021.1.1 circlPassC.simg $message_size
     done
 done
