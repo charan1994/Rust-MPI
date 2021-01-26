@@ -34,3 +34,8 @@ The repository contains the following things:
 - The work was conducted in the college State University of New York at Buffalo. 
 - The code was developed on a laptop and then later scaled and run using slurm scripts on the [UB CCR HPC cluster](http://www.buffalo.edu/ccr.html).
 - The code from the examples of RSMPI github were referred for syntax and general idea of working with MPI using Rust. The github repository and link to examples are mentioned in resources above.
+
+## Things remaining to do
+- Figure out complete mpi crate support issues with default features in singularity container(weird errors which are still not fixed on container but works fine on VM)
+- Add asserts in the code to ensure sanity of program. Currently manually tested and checked code is present(was done extensively for smaller sizes and readable message sizes before moving to larger message sizes)
+- Check for malloc errors in C++ code(seems to occur when large number of ranks are involved and smaller message sizes, maybe something to do with the initialization of vectors)
