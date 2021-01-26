@@ -1,0 +1,2762 @@
+Sun Jan 24 21:09:55 EST 2021
+Running with 8 node and 20 ranks
+running all_to_all rust code for turn: 1 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 154.871µs
+running all_to_all rust code for turn: 2 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 12.120659ms
+running all_to_all rust code for turn: 3 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 143.101µs
+running all_to_all rust code for turn: 4 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.401763ms
+running all_to_all rust code for turn: 5 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.244323ms
+running all_to_all rust code for turn: 6 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 740.182µs
+running all_to_all rust code for turn: 7 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 228.413µs
+running all_to_all rust code for turn: 8 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 373.767µs
+running all_to_all rust code for turn: 9 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.01685ms
+running all_to_all rust code for turn: 10 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 212.271µs
+running all_to_all rust code for turn: 1 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.217972ms
+running all_to_all rust code for turn: 2 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.274151ms
+running all_to_all rust code for turn: 3 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.390319ms
+running all_to_all rust code for turn: 4 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.817462ms
+running all_to_all rust code for turn: 5 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 7.454051ms
+running all_to_all rust code for turn: 6 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 210.789µs
+running all_to_all rust code for turn: 7 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.965095ms
+running all_to_all rust code for turn: 8 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 177.458µs
+running all_to_all rust code for turn: 9 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 140.412µs
+running all_to_all rust code for turn: 10 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.151315ms
+running all_to_all rust code for turn: 1 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 326.177µs
+running all_to_all rust code for turn: 2 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 176.672µs
+running all_to_all rust code for turn: 3 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 94.069µs
+running all_to_all rust code for turn: 4 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 11.959726ms
+running all_to_all rust code for turn: 5 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.209929ms
+running all_to_all rust code for turn: 6 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 218.253µs
+running all_to_all rust code for turn: 7 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.238491ms
+running all_to_all rust code for turn: 8 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.457705ms
+running all_to_all rust code for turn: 9 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 12.882259ms
+running all_to_all rust code for turn: 10 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 15.925661ms
+running all_to_all rust code for turn: 1 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.439405ms
+running all_to_all rust code for turn: 2 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.047174ms
+running all_to_all rust code for turn: 3 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 250.898µs
+running all_to_all rust code for turn: 4 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.372942ms
+running all_to_all rust code for turn: 5 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.292445ms
+running all_to_all rust code for turn: 6 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 18.926109ms
+running all_to_all rust code for turn: 7 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.342968ms
+running all_to_all rust code for turn: 8 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.334229ms
+running all_to_all rust code for turn: 9 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.285406ms
+running all_to_all rust code for turn: 10 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.415675ms
+running all_to_all rust code for turn: 1 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 17.039566ms
+running all_to_all rust code for turn: 2 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 327.271µs
+running all_to_all rust code for turn: 3 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 121.42µs
+running all_to_all rust code for turn: 4 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 3.621375ms
+running all_to_all rust code for turn: 5 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 4.166142ms
+running all_to_all rust code for turn: 6 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.233106ms
+running all_to_all rust code for turn: 7 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 153.488µs
+running all_to_all rust code for turn: 8 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.259402ms
+running all_to_all rust code for turn: 9 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.208934ms
+running all_to_all rust code for turn: 10 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 127.923µs
+running all_to_all rust code for turn: 1 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 146.32µs
+running all_to_all rust code for turn: 2 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.341142ms
+running all_to_all rust code for turn: 3 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.428142ms
+running all_to_all rust code for turn: 4 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 5.631563ms
+running all_to_all rust code for turn: 5 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 112.49µs
+running all_to_all rust code for turn: 6 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 153.26µs
+running all_to_all rust code for turn: 7 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 9.824062ms
+running all_to_all rust code for turn: 8 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 3.764503ms
+running all_to_all rust code for turn: 9 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 7.529254ms
+running all_to_all rust code for turn: 10 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 117.45µs
+running all_to_all rust code for turn: 1 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.096593677s
+running all_to_all rust code for turn: 2 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 133.707586ms
+running all_to_all rust code for turn: 3 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 136.022526ms
+running all_to_all rust code for turn: 4 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 132.324586ms
+running all_to_all rust code for turn: 5 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 126.40958ms
+running all_to_all rust code for turn: 6 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 147.705177ms
+running all_to_all rust code for turn: 7 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 128.409884ms
+running all_to_all rust code for turn: 8 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 128.394853ms
+running all_to_all rust code for turn: 9 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 133.699789ms
+running all_to_all rust code for turn: 10 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 128.030374ms
+running all_to_all rust code for turn: 1 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 126.999257ms
+running all_to_all rust code for turn: 2 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 135.366945ms
+running all_to_all rust code for turn: 3 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 139.648485ms
+running all_to_all rust code for turn: 4 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 122.877314ms
+running all_to_all rust code for turn: 5 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 135.440573ms
+running all_to_all rust code for turn: 6 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 126.857765ms
+running all_to_all rust code for turn: 7 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 133.01094ms
+running all_to_all rust code for turn: 8 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 158.942008ms
+running all_to_all rust code for turn: 9 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 131.562351ms
+running all_to_all rust code for turn: 10 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 125.669893ms
+running all_to_all rust code for turn: 1 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 124.194581ms
+running all_to_all rust code for turn: 2 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 130.323656ms
+running all_to_all rust code for turn: 3 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 119.109694ms
+running all_to_all rust code for turn: 4 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 123.198061ms
+running all_to_all rust code for turn: 5 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 116.260962ms
+running all_to_all rust code for turn: 6 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 120.516763ms
+running all_to_all rust code for turn: 7 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 134.586492ms
+running all_to_all rust code for turn: 8 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 146.519712ms
+running all_to_all rust code for turn: 9 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 135.362123ms
+running all_to_all rust code for turn: 10 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 132.580933ms
+running all_to_all rust code for turn: 1 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 130.524207ms
+running all_to_all rust code for turn: 2 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 131.290355ms
+running all_to_all rust code for turn: 3 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 129.854621ms
+running all_to_all rust code for turn: 4 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 131.956621ms
+running all_to_all rust code for turn: 5 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 135.245978ms
+running all_to_all rust code for turn: 6 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 139.660048ms
+running all_to_all rust code for turn: 7 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 146.710124ms
+running all_to_all rust code for turn: 8 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 149.763442ms
+running all_to_all rust code for turn: 9 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 126.610326ms
+running all_to_all rust code for turn: 10 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 129.874724ms
+running all_to_all rust code for turn: 1 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 128.834431ms
+running all_to_all rust code for turn: 2 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 127.630518ms
+running all_to_all rust code for turn: 3 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 130.261172ms
+running all_to_all rust code for turn: 4 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 132.764891ms
+running all_to_all rust code for turn: 5 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 127.862695ms
+running all_to_all rust code for turn: 6 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 133.530869ms
+running all_to_all rust code for turn: 7 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 128.199468ms
+running all_to_all rust code for turn: 8 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 136.390928ms
+running all_to_all rust code for turn: 9 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 128.050368ms
+running all_to_all rust code for turn: 10 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 134.043828ms
+running all_to_all rust code for turn: 1 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 128.550443ms
+running all_to_all rust code for turn: 2 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 130.148993ms
+running all_to_all rust code for turn: 3 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 136.01807ms
+running all_to_all rust code for turn: 4 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 140.408788ms
+running all_to_all rust code for turn: 5 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 136.318689ms
+running all_to_all rust code for turn: 6 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 141.799107ms
+running all_to_all rust code for turn: 7 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 132.326208ms
+running all_to_all rust code for turn: 8 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 131.665985ms
+running all_to_all rust code for turn: 9 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 134.965715ms
+running all_to_all rust code for turn: 10 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 130.013697ms
+running all_to_all rust code for turn: 1 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.099716547s
+running all_to_all rust code for turn: 2 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.14713056s
+running all_to_all rust code for turn: 3 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.15689332s
+running all_to_all rust code for turn: 4 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.089478422s
+running all_to_all rust code for turn: 5 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.140854365s
+running all_to_all rust code for turn: 6 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.309268301s
+running all_to_all rust code for turn: 7 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.180576679s
+running all_to_all rust code for turn: 8 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.140699883s
+running all_to_all rust code for turn: 9 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.054501768s
+running all_to_all rust code for turn: 10 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.469399156s
+running all_to_all rust code for turn: 1 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 978.759702ms
+running all_to_all rust code for turn: 2 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.150597845s
+running all_to_all rust code for turn: 3 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.161871701s
+running all_to_all rust code for turn: 4 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.112735078s
+running all_to_all rust code for turn: 5 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.716604349s
+running all_to_all rust code for turn: 6 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 957.99662ms
+running all_to_all rust code for turn: 7 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.2177071s
+running all_to_all rust code for turn: 8 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.132430568s
+running all_to_all rust code for turn: 9 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.077713477s
+running all_to_all rust code for turn: 10 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.173122082s
+running all_to_all rust code for turn: 1 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.201671249s
+running all_to_all rust code for turn: 2 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 959.539437ms
+running all_to_all rust code for turn: 3 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.17350617s
+running all_to_all rust code for turn: 4 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.859109874s
+running all_to_all rust code for turn: 5 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.145733237s
+running all_to_all rust code for turn: 6 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.233078557s
+running all_to_all rust code for turn: 7 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.104099231s
+running all_to_all rust code for turn: 8 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.1404741s
+running all_to_all rust code for turn: 9 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.075214354s
+running all_to_all rust code for turn: 10 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 981.660203ms
+running all_to_all rust code for turn: 1 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.121508034s
+running all_to_all rust code for turn: 2 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.035329532s
+running all_to_all rust code for turn: 3 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.065129015s
+running all_to_all rust code for turn: 4 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.149753726s
+running all_to_all rust code for turn: 5 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 948.012122ms
+running all_to_all rust code for turn: 6 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.163221877s
+running all_to_all rust code for turn: 7 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.906326906s
+running all_to_all rust code for turn: 8 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.386945731s
+running all_to_all rust code for turn: 9 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.181321756s
+running all_to_all rust code for turn: 10 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 978.321753ms
+running all_to_all rust code for turn: 1 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.183379721s
+running all_to_all rust code for turn: 2 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.127109817s
+running all_to_all rust code for turn: 3 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.317509509s
+running all_to_all rust code for turn: 4 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.266377196s
+running all_to_all rust code for turn: 5 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.200001589s
+running all_to_all rust code for turn: 6 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.57252835s
+running all_to_all rust code for turn: 7 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.110430516s
+running all_to_all rust code for turn: 8 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.884474593s
+running all_to_all rust code for turn: 9 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.314661609s
+running all_to_all rust code for turn: 10 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.150021073s
+running all_to_all rust code for turn: 1 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.513651993s
+running all_to_all rust code for turn: 2 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.562227924s
+running all_to_all rust code for turn: 3 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.568512275s
+running all_to_all rust code for turn: 4 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.673512029s
+running all_to_all rust code for turn: 5 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.536470583s
+running all_to_all rust code for turn: 6 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.596249702s
+running all_to_all rust code for turn: 7 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.590176317s
+running all_to_all rust code for turn: 8 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.57900481s
+running all_to_all rust code for turn: 9 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.62536993s
+running all_to_all rust code for turn: 10 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.552136181s
+running all_to_all rust code for turn: 1 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.675412905s
+running all_to_all rust code for turn: 2 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.656802356s
+running all_to_all rust code for turn: 3 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.745821685s
+running all_to_all rust code for turn: 4 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.669022371s
+running all_to_all rust code for turn: 5 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.651698162s
+running all_to_all rust code for turn: 6 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.731925446s
+running all_to_all rust code for turn: 7 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.689683386s
+running all_to_all rust code for turn: 8 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.638229646s
+running all_to_all rust code for turn: 9 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.654504293s
+running all_to_all rust code for turn: 10 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 3.538829041s
+running all_to_all rust code for turn: 1 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.643319064s
+running all_to_all rust code for turn: 2 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.601026386s
+running all_to_all rust code for turn: 3 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.696393158s
+running all_to_all rust code for turn: 4 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 3.548229166s
+running all_to_all rust code for turn: 5 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.671915829s
+running all_to_all rust code for turn: 6 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.577083883s
+running all_to_all rust code for turn: 7 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.671256536s
+running all_to_all rust code for turn: 8 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.59714414s
+running all_to_all rust code for turn: 9 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.706519798s
+running all_to_all rust code for turn: 10 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.739552354s
+running all_to_all rust code for turn: 1 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.824156146s
+running all_to_all rust code for turn: 2 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.844325447s
+running all_to_all rust code for turn: 3 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.756173887s
+running all_to_all rust code for turn: 4 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.850011512s
+running all_to_all rust code for turn: 5 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.798508965s
+running all_to_all rust code for turn: 6 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.784874151s
+running all_to_all rust code for turn: 7 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.661415796s
+running all_to_all rust code for turn: 8 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.831897771s
+running all_to_all rust code for turn: 9 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.823111208s
+running all_to_all rust code for turn: 10 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.937429972s
+running all_to_all rust code for turn: 1 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.029498669s
+running all_to_all rust code for turn: 2 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.824202573s
+running all_to_all rust code for turn: 3 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.802055845s
+running all_to_all rust code for turn: 4 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.855906263s
+running all_to_all rust code for turn: 5 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.814707332s
+running all_to_all rust code for turn: 6 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.908807316s
+running all_to_all rust code for turn: 7 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.880233136s
+running all_to_all rust code for turn: 8 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.872886304s
+running all_to_all rust code for turn: 9 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.842571292s
+running all_to_all rust code for turn: 10 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.784928967s
+running all_to_all rust code for turn: 1 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.004320009s
+running all_to_all rust code for turn: 2 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.981522395s
+running all_to_all rust code for turn: 3 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.194557147s
+running all_to_all rust code for turn: 4 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.96102016s
+running all_to_all rust code for turn: 5 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.054974676s
+running all_to_all rust code for turn: 6 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 1.986214462s
+running all_to_all rust code for turn: 7 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.024269883s
+running all_to_all rust code for turn: 8 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.040999248s
+running all_to_all rust code for turn: 9 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.067750326s
+running all_to_all rust code for turn: 10 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.013685405s
+running all_to_all rust code for turn: 1 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.44398387s
+running all_to_all rust code for turn: 2 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.351580865s
+running all_to_all rust code for turn: 3 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.356700374s
+running all_to_all rust code for turn: 4 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.399577916s
+running all_to_all rust code for turn: 5 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.357886327s
+running all_to_all rust code for turn: 6 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.346599351s
+running all_to_all rust code for turn: 7 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.821343878s
+running all_to_all rust code for turn: 8 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.348095771s
+running all_to_all rust code for turn: 9 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.345416353s
+running all_to_all rust code for turn: 10 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 2.429349339s
+running all_to_all c++ code for turn: 1 and message size: 1
+running all_to_all c++ code for turn: 2 and message size: 1
+running all_to_all c++ code for turn: 3 and message size: 1
+running all_to_all c++ code for turn: 4 and message size: 1
+running all_to_all c++ code for turn: 5 and message size: 1
+running all_to_all c++ code for turn: 6 and message size: 1
+running all_to_all c++ code for turn: 7 and message size: 1
+running all_to_all c++ code for turn: 8 and message size: 1
+running all_to_all c++ code for turn: 9 and message size: 1
+running all_to_all c++ code for turn: 10 and message size: 1
+running all_to_all c++ code for turn: 1 and message size: 8
+running all_to_all c++ code for turn: 2 and message size: 8
+running all_to_all c++ code for turn: 3 and message size: 8
+running all_to_all c++ code for turn: 4 and message size: 8
+running all_to_all c++ code for turn: 5 and message size: 8
+running all_to_all c++ code for turn: 6 and message size: 8
+running all_to_all c++ code for turn: 7 and message size: 8
+running all_to_all c++ code for turn: 8 and message size: 8
+running all_to_all c++ code for turn: 9 and message size: 8
+running all_to_all c++ code for turn: 10 and message size: 8
+running all_to_all c++ code for turn: 1 and message size: 16
+running all_to_all c++ code for turn: 2 and message size: 16
+running all_to_all c++ code for turn: 3 and message size: 16
+running all_to_all c++ code for turn: 4 and message size: 16
+running all_to_all c++ code for turn: 5 and message size: 16
+running all_to_all c++ code for turn: 6 and message size: 16
+running all_to_all c++ code for turn: 7 and message size: 16
+running all_to_all c++ code for turn: 8 and message size: 16
+running all_to_all c++ code for turn: 9 and message size: 16
+running all_to_all c++ code for turn: 10 and message size: 16
+running all_to_all c++ code for turn: 1 and message size: 32
+running all_to_all c++ code for turn: 2 and message size: 32
+running all_to_all c++ code for turn: 3 and message size: 32
+running all_to_all c++ code for turn: 4 and message size: 32
+running all_to_all c++ code for turn: 5 and message size: 32
+running all_to_all c++ code for turn: 6 and message size: 32
+running all_to_all c++ code for turn: 7 and message size: 32
+running all_to_all c++ code for turn: 8 and message size: 32
+running all_to_all c++ code for turn: 9 and message size: 32
+running all_to_all c++ code for turn: 10 and message size: 32
+running all_to_all c++ code for turn: 1 and message size: 64
+running all_to_all c++ code for turn: 2 and message size: 64
+running all_to_all c++ code for turn: 3 and message size: 64
+running all_to_all c++ code for turn: 4 and message size: 64
+running all_to_all c++ code for turn: 5 and message size: 64
+running all_to_all c++ code for turn: 6 and message size: 64
+running all_to_all c++ code for turn: 7 and message size: 64
+running all_to_all c++ code for turn: 8 and message size: 64
+running all_to_all c++ code for turn: 9 and message size: 64
+running all_to_all c++ code for turn: 10 and message size: 64
+running all_to_all c++ code for turn: 1 and message size: 128
+running all_to_all c++ code for turn: 2 and message size: 128
+running all_to_all c++ code for turn: 3 and message size: 128
+running all_to_all c++ code for turn: 4 and message size: 128
+running all_to_all c++ code for turn: 5 and message size: 128
+running all_to_all c++ code for turn: 6 and message size: 128
+running all_to_all c++ code for turn: 7 and message size: 128
+running all_to_all c++ code for turn: 8 and message size: 128
+running all_to_all c++ code for turn: 9 and message size: 128
+running all_to_all c++ code for turn: 10 and message size: 128
+running all_to_all c++ code for turn: 1 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 1107.318381ms
+running all_to_all c++ code for turn: 2 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 135.168301ms
+running all_to_all c++ code for turn: 3 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 134.545540ms
+running all_to_all c++ code for turn: 4 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 128.204038ms
+running all_to_all c++ code for turn: 5 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 132.972157ms
+running all_to_all c++ code for turn: 6 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 125.518661ms
+running all_to_all c++ code for turn: 7 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 131.357271ms
+running all_to_all c++ code for turn: 8 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 126.848752ms
+running all_to_all c++ code for turn: 9 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 136.402832ms
+running all_to_all c++ code for turn: 10 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 138.226015ms
+running all_to_all c++ code for turn: 1 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 130.761940ms
+running all_to_all c++ code for turn: 2 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 127.126385ms
+running all_to_all c++ code for turn: 3 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 135.601690ms
+running all_to_all c++ code for turn: 4 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 127.444873ms
+running all_to_all c++ code for turn: 5 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 135.049712ms
+running all_to_all c++ code for turn: 6 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 136.105720ms
+running all_to_all c++ code for turn: 7 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 125.781476ms
+running all_to_all c++ code for turn: 8 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 124.926450ms
+running all_to_all c++ code for turn: 9 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 136.725355ms
+running all_to_all c++ code for turn: 10 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 125.818333ms
+running all_to_all c++ code for turn: 1 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 115.848446ms
+running all_to_all c++ code for turn: 2 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 121.143848ms
+running all_to_all c++ code for turn: 3 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 124.769744ms
+running all_to_all c++ code for turn: 4 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 124.567036ms
+running all_to_all c++ code for turn: 5 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 125.440503ms
+running all_to_all c++ code for turn: 6 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 135.290841ms
+running all_to_all c++ code for turn: 7 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 130.317055ms
+running all_to_all c++ code for turn: 8 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 136.208108ms
+running all_to_all c++ code for turn: 9 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 111.606941ms
+running all_to_all c++ code for turn: 10 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 157.796783ms
+running all_to_all c++ code for turn: 1 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 127.763724ms
+running all_to_all c++ code for turn: 2 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 122.825904ms
+running all_to_all c++ code for turn: 3 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 128.728976ms
+running all_to_all c++ code for turn: 4 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 136.693787ms
+running all_to_all c++ code for turn: 5 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 135.368213ms
+running all_to_all c++ code for turn: 6 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 133.598747ms
+running all_to_all c++ code for turn: 7 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 134.171942ms
+running all_to_all c++ code for turn: 8 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 125.254175ms
+running all_to_all c++ code for turn: 9 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 135.117130ms
+running all_to_all c++ code for turn: 10 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 125.970369ms
+running all_to_all c++ code for turn: 1 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 133.318132ms
+running all_to_all c++ code for turn: 2 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 142.640198ms
+running all_to_all c++ code for turn: 3 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 121.243142ms
+running all_to_all c++ code for turn: 4 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 136.130044ms
+running all_to_all c++ code for turn: 5 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 128.701862ms
+running all_to_all c++ code for turn: 6 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 142.870827ms
+running all_to_all c++ code for turn: 7 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 132.445009ms
+running all_to_all c++ code for turn: 8 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 129.350025ms
+running all_to_all c++ code for turn: 9 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 168.491876ms
+running all_to_all c++ code for turn: 10 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 125.347573ms
+running all_to_all c++ code for turn: 1 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 132.603750ms
+running all_to_all c++ code for turn: 2 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 123.762276ms
+running all_to_all c++ code for turn: 3 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 129.939700ms
+running all_to_all c++ code for turn: 4 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 128.531123ms
+running all_to_all c++ code for turn: 5 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 131.547609ms
+running all_to_all c++ code for turn: 6 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 129.580045ms
+running all_to_all c++ code for turn: 7 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 144.296682ms
+running all_to_all c++ code for turn: 8 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 135.144813ms
+running all_to_all c++ code for turn: 9 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 127.567828ms
+running all_to_all c++ code for turn: 10 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 143.444240ms
+running all_to_all c++ code for turn: 1 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 142.527111ms
+running all_to_all c++ code for turn: 2 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 160.384258ms
+running all_to_all c++ code for turn: 3 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 135.133402ms
+running all_to_all c++ code for turn: 4 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 124.923784ms
+running all_to_all c++ code for turn: 5 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 131.234853ms
+running all_to_all c++ code for turn: 6 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 135.507276ms
+running all_to_all c++ code for turn: 7 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 135.529859ms
+running all_to_all c++ code for turn: 8 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 135.833750ms
+running all_to_all c++ code for turn: 9 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 132.602291ms
+running all_to_all c++ code for turn: 10 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 134.029910ms
+running all_to_all c++ code for turn: 1 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 126.632476ms
+running all_to_all c++ code for turn: 2 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 127.598042ms
+running all_to_all c++ code for turn: 3 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 135.232292ms
+running all_to_all c++ code for turn: 4 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 126.778118ms
+running all_to_all c++ code for turn: 5 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 120.335193ms
+running all_to_all c++ code for turn: 6 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 135.092201ms
+running all_to_all c++ code for turn: 7 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 126.421059ms
+running all_to_all c++ code for turn: 8 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 131.738566ms
+running all_to_all c++ code for turn: 9 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 124.770787ms
+running all_to_all c++ code for turn: 10 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 136.919063ms
+running all_to_all c++ code for turn: 1 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 135.399012ms
+running all_to_all c++ code for turn: 2 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 163.218217ms
+running all_to_all c++ code for turn: 3 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 132.693307ms
+running all_to_all c++ code for turn: 4 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 132.616494ms
+running all_to_all c++ code for turn: 5 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 124.294594ms
+running all_to_all c++ code for turn: 6 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 138.205761ms
+running all_to_all c++ code for turn: 7 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 133.789692ms
+running all_to_all c++ code for turn: 8 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 127.345765ms
+running all_to_all c++ code for turn: 9 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 137.068581ms
+running all_to_all c++ code for turn: 10 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 136.394016ms
+running all_to_all c++ code for turn: 1 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 125.929138ms
+running all_to_all c++ code for turn: 2 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 132.727752ms
+running all_to_all c++ code for turn: 3 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 130.222546ms
+running all_to_all c++ code for turn: 4 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 130.088251ms
+running all_to_all c++ code for turn: 5 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 137.647726ms
+running all_to_all c++ code for turn: 6 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 143.387636ms
+running all_to_all c++ code for turn: 7 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 131.923553ms
+running all_to_all c++ code for turn: 8 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 146.736912ms
+running all_to_all c++ code for turn: 9 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 131.886849ms
+running all_to_all c++ code for turn: 10 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 126.849508ms
+running all_to_all c++ code for turn: 1 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 132.893262ms
+running all_to_all c++ code for turn: 2 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 129.365547ms
+running all_to_all c++ code for turn: 3 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 138.269801ms
+running all_to_all c++ code for turn: 4 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 128.076285ms
+running all_to_all c++ code for turn: 5 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 131.757565ms
+running all_to_all c++ code for turn: 6 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 123.933287ms
+running all_to_all c++ code for turn: 7 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 125.743987ms
+running all_to_all c++ code for turn: 8 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 137.313116ms
+running all_to_all c++ code for turn: 9 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 138.972720ms
+running all_to_all c++ code for turn: 10 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 129.472176ms
+running all_to_all c++ code for turn: 1 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 117.599288ms
+running all_to_all c++ code for turn: 2 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 129.802043ms
+running all_to_all c++ code for turn: 3 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 125.462323ms
+running all_to_all c++ code for turn: 4 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 123.383082ms
+running all_to_all c++ code for turn: 5 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 136.573352ms
+running all_to_all c++ code for turn: 6 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 133.067446ms
+running all_to_all c++ code for turn: 7 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 125.223555ms
+running all_to_all c++ code for turn: 8 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 132.683303ms
+running all_to_all c++ code for turn: 9 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 128.502866ms
+running all_to_all c++ code for turn: 10 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 133.870857ms
+running all_to_all c++ code for turn: 1 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 128.909564ms
+running all_to_all c++ code for turn: 2 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 130.176680ms
+running all_to_all c++ code for turn: 3 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 144.065497ms
+running all_to_all c++ code for turn: 4 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 127.766760ms
+running all_to_all c++ code for turn: 5 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 130.524041ms
+running all_to_all c++ code for turn: 6 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 137.230629ms
+running all_to_all c++ code for turn: 7 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 128.053742ms
+running all_to_all c++ code for turn: 8 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 125.534471ms
+running all_to_all c++ code for turn: 9 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 134.766266ms
+running all_to_all c++ code for turn: 10 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 137.764947ms
+running all_to_all c++ code for turn: 1 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 121.986745ms
+running all_to_all c++ code for turn: 2 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 123.675643ms
+running all_to_all c++ code for turn: 3 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 132.835111ms
+running all_to_all c++ code for turn: 4 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 132.616190ms
+running all_to_all c++ code for turn: 5 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 135.755766ms
+running all_to_all c++ code for turn: 6 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 127.928799ms
+running all_to_all c++ code for turn: 7 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 134.155283ms
+running all_to_all c++ code for turn: 8 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 132.740244ms
+running all_to_all c++ code for turn: 9 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 154.793361ms
+running all_to_all c++ code for turn: 10 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 137.456598ms
+running all_to_all c++ code for turn: 1 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 136.134958ms
+running all_to_all c++ code for turn: 2 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 130.280470ms
+running all_to_all c++ code for turn: 3 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 118.283268ms
+running all_to_all c++ code for turn: 4 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 132.448511ms
+running all_to_all c++ code for turn: 5 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 129.865332ms
+running all_to_all c++ code for turn: 6 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 138.015557ms
+running all_to_all c++ code for turn: 7 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 125.546971ms
+running all_to_all c++ code for turn: 8 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 154.797634ms
+running all_to_all c++ code for turn: 9 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 125.140268ms
+running all_to_all c++ code for turn: 10 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 123.435788ms
+running all_to_all c++ code for turn: 1 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 136.211338ms
+running all_to_all c++ code for turn: 2 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 123.751579ms
+running all_to_all c++ code for turn: 3 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 120.673070ms
+running all_to_all c++ code for turn: 4 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 117.931165ms
+running all_to_all c++ code for turn: 5 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 123.470843ms
+running all_to_all c++ code for turn: 6 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 129.932228ms
+running all_to_all c++ code for turn: 7 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 123.096898ms
+running all_to_all c++ code for turn: 8 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 127.973164ms
+running all_to_all c++ code for turn: 9 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 155.666109ms
+running all_to_all c++ code for turn: 10 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 125.812875ms
+running all_to_all c++ code for turn: 1 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 126.939982ms
+running all_to_all c++ code for turn: 2 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 117.643479ms
+running all_to_all c++ code for turn: 3 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 154.694324ms
+running all_to_all c++ code for turn: 4 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 135.190921ms
+running all_to_all c++ code for turn: 5 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 137.205921ms
+running all_to_all c++ code for turn: 6 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 124.529148ms
+running all_to_all c++ code for turn: 7 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 126.981417ms
+running all_to_all c++ code for turn: 8 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 124.855626ms
+running all_to_all c++ code for turn: 9 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 140.948584ms
+running all_to_all c++ code for turn: 10 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 135.008883ms
+running all_to_all c++ code for turn: 1 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 118.675806ms
+running all_to_all c++ code for turn: 2 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 128.732076ms
+running all_to_all c++ code for turn: 3 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 128.228884ms
+running all_to_all c++ code for turn: 4 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 126.178833ms
+running all_to_all c++ code for turn: 5 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 119.331591ms
+running all_to_all c++ code for turn: 6 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 119.071862ms
+running all_to_all c++ code for turn: 7 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 124.807531ms
+running all_to_all c++ code for turn: 8 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 137.905829ms
+running all_to_all c++ code for turn: 9 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 123.636723ms
+running all_to_all c++ code for turn: 10 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 133.306844ms
+running circle pass rust code for turn: 1 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.814518ms
+running circle pass rust code for turn: 2 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.264955ms
+running circle pass rust code for turn: 3 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 21.743235ms
+running circle pass rust code for turn: 4 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.167136ms
+running circle pass rust code for turn: 5 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.540309ms
+running circle pass rust code for turn: 6 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.39767ms
+running circle pass rust code for turn: 7 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 21.812027ms
+running circle pass rust code for turn: 8 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 21.85301ms
+running circle pass rust code for turn: 9 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.519317ms
+running circle pass rust code for turn: 10 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 21.854581ms
+running circle pass rust code for turn: 1 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.657992ms
+running circle pass rust code for turn: 2 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.641402ms
+running circle pass rust code for turn: 3 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.193107ms
+running circle pass rust code for turn: 4 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.592909ms
+running circle pass rust code for turn: 5 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.234489ms
+running circle pass rust code for turn: 6 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.05331ms
+running circle pass rust code for turn: 7 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.171096ms
+running circle pass rust code for turn: 8 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.083253ms
+running circle pass rust code for turn: 9 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.048917ms
+running circle pass rust code for turn: 10 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.796169ms
+running circle pass rust code for turn: 1 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.737063ms
+running circle pass rust code for turn: 2 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.196727ms
+running circle pass rust code for turn: 3 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.226973ms
+running circle pass rust code for turn: 4 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.35293ms
+running circle pass rust code for turn: 5 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.882617ms
+running circle pass rust code for turn: 6 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.067516ms
+running circle pass rust code for turn: 7 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.272808ms
+running circle pass rust code for turn: 8 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.00022ms
+running circle pass rust code for turn: 9 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 35.551011ms
+running circle pass rust code for turn: 10 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.091815ms
+running circle pass rust code for turn: 1 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.880338ms
+running circle pass rust code for turn: 2 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.930415ms
+running circle pass rust code for turn: 3 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.444238ms
+running circle pass rust code for turn: 4 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.192282ms
+running circle pass rust code for turn: 5 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.722758ms
+running circle pass rust code for turn: 6 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.041115ms
+running circle pass rust code for turn: 7 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.185104ms
+running circle pass rust code for turn: 8 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.113608ms
+running circle pass rust code for turn: 9 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 38.107877ms
+running circle pass rust code for turn: 10 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.124503ms
+running circle pass rust code for turn: 1 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 25.41596ms
+running circle pass rust code for turn: 2 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 21.778126ms
+running circle pass rust code for turn: 3 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.927304ms
+running circle pass rust code for turn: 4 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.062511ms
+running circle pass rust code for turn: 5 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.517129ms
+running circle pass rust code for turn: 6 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.65353ms
+running circle pass rust code for turn: 7 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 27.646169ms
+running circle pass rust code for turn: 8 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 21.293452ms
+running circle pass rust code for turn: 9 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.64971ms
+running circle pass rust code for turn: 10 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 25.885902ms
+running circle pass rust code for turn: 1 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.865271ms
+running circle pass rust code for turn: 2 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.491556ms
+running circle pass rust code for turn: 3 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.988241ms
+running circle pass rust code for turn: 4 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.840212ms
+running circle pass rust code for turn: 5 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.382459ms
+running circle pass rust code for turn: 6 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 20.574255ms
+running circle pass rust code for turn: 7 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.664805ms
+running circle pass rust code for turn: 8 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.471134ms
+running circle pass rust code for turn: 9 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.258598ms
+running circle pass rust code for turn: 10 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.476782ms
+running circle pass rust code for turn: 1 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 20.968953ms
+running circle pass rust code for turn: 2 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 25.166775ms
+running circle pass rust code for turn: 3 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.404284ms
+running circle pass rust code for turn: 4 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 25.36955ms
+running circle pass rust code for turn: 5 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.156454ms
+running circle pass rust code for turn: 6 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.26316ms
+running circle pass rust code for turn: 7 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.829189ms
+running circle pass rust code for turn: 8 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.098417ms
+running circle pass rust code for turn: 9 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.204459ms
+running circle pass rust code for turn: 10 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 25.735963ms
+running circle pass rust code for turn: 1 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.793014ms
+running circle pass rust code for turn: 2 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.187578ms
+running circle pass rust code for turn: 3 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.01942ms
+running circle pass rust code for turn: 4 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.584237ms
+running circle pass rust code for turn: 5 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.82803ms
+running circle pass rust code for turn: 6 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.882393ms
+running circle pass rust code for turn: 7 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 25.766274ms
+running circle pass rust code for turn: 8 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 82.830146ms
+running circle pass rust code for turn: 9 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.700388ms
+running circle pass rust code for turn: 10 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.383917ms
+running circle pass rust code for turn: 1 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.864112ms
+running circle pass rust code for turn: 2 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.405344ms
+running circle pass rust code for turn: 3 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.567975ms
+running circle pass rust code for turn: 4 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.784406ms
+running circle pass rust code for turn: 5 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.417468ms
+running circle pass rust code for turn: 6 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 26.057285ms
+running circle pass rust code for turn: 7 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.232816ms
+running circle pass rust code for turn: 8 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 30.608991ms
+running circle pass rust code for turn: 9 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 47.039854ms
+running circle pass rust code for turn: 10 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.106657ms
+running circle pass rust code for turn: 1 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.86428ms
+running circle pass rust code for turn: 2 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 18.733219ms
+running circle pass rust code for turn: 3 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 26.206243ms
+running circle pass rust code for turn: 4 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.065447ms
+running circle pass rust code for turn: 5 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.704476ms
+running circle pass rust code for turn: 6 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.036461ms
+running circle pass rust code for turn: 7 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.450387ms
+running circle pass rust code for turn: 8 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.7063ms
+running circle pass rust code for turn: 9 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.89312ms
+running circle pass rust code for turn: 10 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.261137ms
+running circle pass rust code for turn: 1 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.582397ms
+running circle pass rust code for turn: 2 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.519696ms
+running circle pass rust code for turn: 3 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.93099ms
+running circle pass rust code for turn: 4 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 20.473836ms
+running circle pass rust code for turn: 5 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 25.788416ms
+running circle pass rust code for turn: 6 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.685318ms
+running circle pass rust code for turn: 7 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.968165ms
+running circle pass rust code for turn: 8 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.973464ms
+running circle pass rust code for turn: 9 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.050728ms
+running circle pass rust code for turn: 10 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.069305ms
+running circle pass rust code for turn: 1 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 20.357606ms
+running circle pass rust code for turn: 2 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 20.469948ms
+running circle pass rust code for turn: 3 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 21.658274ms
+running circle pass rust code for turn: 4 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.942419ms
+running circle pass rust code for turn: 5 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.613833ms
+running circle pass rust code for turn: 6 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.464571ms
+running circle pass rust code for turn: 7 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 21.317309ms
+running circle pass rust code for turn: 8 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.745469ms
+running circle pass rust code for turn: 9 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 21.926959ms
+running circle pass rust code for turn: 10 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.271075ms
+running circle pass rust code for turn: 1 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.763474ms
+running circle pass rust code for turn: 2 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 18.928055ms
+running circle pass rust code for turn: 3 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.956044ms
+running circle pass rust code for turn: 4 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 21.323105ms
+running circle pass rust code for turn: 5 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.07956ms
+running circle pass rust code for turn: 6 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.030278ms
+running circle pass rust code for turn: 7 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.470509ms
+running circle pass rust code for turn: 8 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 26.038498ms
+running circle pass rust code for turn: 9 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 21.183231ms
+running circle pass rust code for turn: 10 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.988122ms
+running circle pass rust code for turn: 1 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.401422ms
+running circle pass rust code for turn: 2 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.559095ms
+running circle pass rust code for turn: 3 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.375504ms
+running circle pass rust code for turn: 4 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 21.451246ms
+running circle pass rust code for turn: 5 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.992594ms
+running circle pass rust code for turn: 6 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 25.457503ms
+running circle pass rust code for turn: 7 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.630415ms
+running circle pass rust code for turn: 8 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 21.94223ms
+running circle pass rust code for turn: 9 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.988742ms
+running circle pass rust code for turn: 10 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.81647ms
+running circle pass rust code for turn: 1 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 25.065119ms
+running circle pass rust code for turn: 2 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.993191ms
+running circle pass rust code for turn: 3 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 25.668194ms
+running circle pass rust code for turn: 4 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.937371ms
+running circle pass rust code for turn: 5 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.489042ms
+running circle pass rust code for turn: 6 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.85816ms
+running circle pass rust code for turn: 7 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.527383ms
+running circle pass rust code for turn: 8 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.583703ms
+running circle pass rust code for turn: 9 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.243339ms
+running circle pass rust code for turn: 10 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.830887ms
+running circle pass rust code for turn: 1 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.884657ms
+running circle pass rust code for turn: 2 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.293991ms
+running circle pass rust code for turn: 3 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.618306ms
+running circle pass rust code for turn: 4 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.508937ms
+running circle pass rust code for turn: 5 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.16676ms
+running circle pass rust code for turn: 6 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.470349ms
+running circle pass rust code for turn: 7 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.755964ms
+running circle pass rust code for turn: 8 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.72622ms
+running circle pass rust code for turn: 9 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 20.593528ms
+running circle pass rust code for turn: 10 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.651019ms
+running circle pass rust code for turn: 1 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.08532ms
+running circle pass rust code for turn: 2 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 26.34906ms
+running circle pass rust code for turn: 3 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.254164ms
+running circle pass rust code for turn: 4 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 106.676525ms
+running circle pass rust code for turn: 5 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.56523ms
+running circle pass rust code for turn: 6 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 21.855355ms
+running circle pass rust code for turn: 7 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 21.992528ms
+running circle pass rust code for turn: 8 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 23.33204ms
+running circle pass rust code for turn: 9 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.244526ms
+running circle pass rust code for turn: 10 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 22.098789ms
+running circle pass rust code for turn: 1 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.506703ms
+running circle pass rust code for turn: 2 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 25.329621ms
+running circle pass rust code for turn: 3 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 24.900008ms
+running circle pass rust code for turn: 4 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 25.44693ms
+running circle pass rust code for turn: 5 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 25.338684ms
+running circle pass rust code for turn: 6 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 25.64854ms
+running circle pass rust code for turn: 7 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 25.060856ms
+running circle pass rust code for turn: 8 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 25.769207ms
+running circle pass rust code for turn: 9 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 25.533876ms
+running circle pass rust code for turn: 10 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 25.411537ms
+running circle pass rust code for turn: 1 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 30.928536ms
+running circle pass rust code for turn: 2 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 32.116999ms
+running circle pass rust code for turn: 3 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 65.040701ms
+running circle pass rust code for turn: 4 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 30.703019ms
+running circle pass rust code for turn: 5 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 31.654062ms
+running circle pass rust code for turn: 6 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 32.169009ms
+running circle pass rust code for turn: 7 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 30.202389ms
+running circle pass rust code for turn: 8 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 31.473554ms
+running circle pass rust code for turn: 9 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 46.990078ms
+running circle pass rust code for turn: 10 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 32.294465ms
+running circle pass rust code for turn: 1 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 40.582126ms
+running circle pass rust code for turn: 2 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 39.837397ms
+running circle pass rust code for turn: 3 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 40.399117ms
+running circle pass rust code for turn: 4 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 39.863806ms
+running circle pass rust code for turn: 5 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 41.712609ms
+running circle pass rust code for turn: 6 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 40.655318ms
+running circle pass rust code for turn: 7 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 39.290016ms
+running circle pass rust code for turn: 8 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 39.071074ms
+running circle pass rust code for turn: 9 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 39.849693ms
+running circle pass rust code for turn: 10 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 42.814733ms
+running circle pass rust code for turn: 1 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 56.714669ms
+running circle pass rust code for turn: 2 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 55.869597ms
+running circle pass rust code for turn: 3 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 56.842031ms
+running circle pass rust code for turn: 4 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 58.210305ms
+running circle pass rust code for turn: 5 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 56.292085ms
+running circle pass rust code for turn: 6 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 57.118317ms
+running circle pass rust code for turn: 7 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 56.468546ms
+running circle pass rust code for turn: 8 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 55.902493ms
+running circle pass rust code for turn: 9 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 53.701585ms
+running circle pass rust code for turn: 10 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 58.102259ms
+running circle pass rust code for turn: 1 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 93.256947ms
+running circle pass rust code for turn: 2 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 90.545285ms
+running circle pass rust code for turn: 3 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 87.889098ms
+running circle pass rust code for turn: 4 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 93.931218ms
+running circle pass rust code for turn: 5 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 89.693559ms
+running circle pass rust code for turn: 6 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 86.974503ms
+running circle pass rust code for turn: 7 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 92.491998ms
+running circle pass rust code for turn: 8 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 90.234226ms
+running circle pass rust code for turn: 9 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 90.212668ms
+running circle pass rust code for turn: 10 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 86.323543ms
+running circle pass rust code for turn: 1 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 157.376051ms
+running circle pass rust code for turn: 2 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 157.344704ms
+running circle pass rust code for turn: 3 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 157.079523ms
+running circle pass rust code for turn: 4 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 155.886128ms
+running circle pass rust code for turn: 5 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 157.418262ms
+running circle pass rust code for turn: 6 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 165.462518ms
+running circle pass rust code for turn: 7 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 158.477499ms
+running circle pass rust code for turn: 8 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 154.330481ms
+running circle pass rust code for turn: 9 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 157.436016ms
+running circle pass rust code for turn: 10 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 154.1069ms
+running circle pass rust code for turn: 1 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 302.276256ms
+running circle pass rust code for turn: 2 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 305.085995ms
+running circle pass rust code for turn: 3 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 300.707661ms
+running circle pass rust code for turn: 4 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 304.77487ms
+running circle pass rust code for turn: 5 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 302.73742ms
+running circle pass rust code for turn: 6 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 297.987117ms
+running circle pass rust code for turn: 7 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 298.770816ms
+running circle pass rust code for turn: 8 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 300.553852ms
+running circle pass rust code for turn: 9 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 303.508521ms
+running circle pass rust code for turn: 10 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in the code: 333.522009ms
+running circle pass c++ code for turn: 1 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.507195ms
+running circle pass c++ code for turn: 2 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.974944ms
+running circle pass c++ code for turn: 3 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.972727ms
+running circle pass c++ code for turn: 4 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 29.574273ms
+running circle pass c++ code for turn: 5 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.295835ms
+running circle pass c++ code for turn: 6 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 28.204797ms
+running circle pass c++ code for turn: 7 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.967113ms
+running circle pass c++ code for turn: 8 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.578109ms
+running circle pass c++ code for turn: 9 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.813296ms
+running circle pass c++ code for turn: 10 and message size: 1
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.346586ms
+running circle pass c++ code for turn: 1 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.461541ms
+running circle pass c++ code for turn: 2 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.657897ms
+running circle pass c++ code for turn: 3 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.300435ms
+running circle pass c++ code for turn: 4 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.852752ms
+running circle pass c++ code for turn: 5 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.022987ms
+running circle pass c++ code for turn: 6 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.049330ms
+running circle pass c++ code for turn: 7 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.848226ms
+running circle pass c++ code for turn: 8 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 26.817953ms
+running circle pass c++ code for turn: 9 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.282353ms
+running circle pass c++ code for turn: 10 and message size: 8
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.016590ms
+running circle pass c++ code for turn: 1 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.138588ms
+running circle pass c++ code for turn: 2 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.302162ms
+running circle pass c++ code for turn: 3 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.311654ms
+running circle pass c++ code for turn: 4 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.694776ms
+running circle pass c++ code for turn: 5 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.132428ms
+running circle pass c++ code for turn: 6 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.605110ms
+running circle pass c++ code for turn: 7 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 20.314947ms
+running circle pass c++ code for turn: 8 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.846697ms
+running circle pass c++ code for turn: 9 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.860464ms
+running circle pass c++ code for turn: 10 and message size: 16
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.086200ms
+running circle pass c++ code for turn: 1 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.507012ms
+running circle pass c++ code for turn: 2 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.949593ms
+running circle pass c++ code for turn: 3 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.909878ms
+running circle pass c++ code for turn: 4 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.802955ms
+running circle pass c++ code for turn: 5 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.860877ms
+running circle pass c++ code for turn: 6 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.776607ms
+running circle pass c++ code for turn: 7 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.825308ms
+running circle pass c++ code for turn: 8 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.753628ms
+running circle pass c++ code for turn: 9 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.502823ms
+running circle pass c++ code for turn: 10 and message size: 32
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 25.963435ms
+running circle pass c++ code for turn: 1 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.112636ms
+running circle pass c++ code for turn: 2 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.905007ms
+running circle pass c++ code for turn: 3 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.974136ms
+running circle pass c++ code for turn: 4 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.541134ms
+running circle pass c++ code for turn: 5 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.408819ms
+running circle pass c++ code for turn: 6 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.274796ms
+running circle pass c++ code for turn: 7 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.878382ms
+running circle pass c++ code for turn: 8 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 28.098326ms
+running circle pass c++ code for turn: 9 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.151860ms
+running circle pass c++ code for turn: 10 and message size: 64
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.747939ms
+running circle pass c++ code for turn: 1 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.241727ms
+running circle pass c++ code for turn: 2 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.069210ms
+running circle pass c++ code for turn: 3 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.796165ms
+running circle pass c++ code for turn: 4 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.587011ms
+running circle pass c++ code for turn: 5 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.773804ms
+running circle pass c++ code for turn: 6 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.983341ms
+running circle pass c++ code for turn: 7 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.149768ms
+running circle pass c++ code for turn: 8 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.267638ms
+running circle pass c++ code for turn: 9 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.733420ms
+running circle pass c++ code for turn: 10 and message size: 128
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.743395ms
+running circle pass c++ code for turn: 1 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.553429ms
+running circle pass c++ code for turn: 2 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.829998ms
+running circle pass c++ code for turn: 3 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.154555ms
+running circle pass c++ code for turn: 4 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.317622ms
+running circle pass c++ code for turn: 5 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.632541ms
+running circle pass c++ code for turn: 6 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.369676ms
+running circle pass c++ code for turn: 7 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.648752ms
+running circle pass c++ code for turn: 8 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 20.220555ms
+running circle pass c++ code for turn: 9 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.626372ms
+running circle pass c++ code for turn: 10 and message size: 256
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.671312ms
+running circle pass c++ code for turn: 1 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.499099ms
+running circle pass c++ code for turn: 2 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.350289ms
+running circle pass c++ code for turn: 3 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.673905ms
+running circle pass c++ code for turn: 4 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.930466ms
+running circle pass c++ code for turn: 5 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 63.249318ms
+running circle pass c++ code for turn: 6 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.020753ms
+running circle pass c++ code for turn: 7 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.616574ms
+running circle pass c++ code for turn: 8 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.985973ms
+running circle pass c++ code for turn: 9 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.678619ms
+running circle pass c++ code for turn: 10 and message size: 512
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 26.980828ms
+running circle pass c++ code for turn: 1 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.002308ms
+running circle pass c++ code for turn: 2 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.971444ms
+running circle pass c++ code for turn: 3 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 25.977878ms
+running circle pass c++ code for turn: 4 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.531325ms
+running circle pass c++ code for turn: 5 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.277821ms
+running circle pass c++ code for turn: 6 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.629729ms
+running circle pass c++ code for turn: 7 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 20.573908ms
+running circle pass c++ code for turn: 8 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.831041ms
+running circle pass c++ code for turn: 9 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.080764ms
+running circle pass c++ code for turn: 10 and message size: 1024
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.874883ms
+running circle pass c++ code for turn: 1 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.286032ms
+running circle pass c++ code for turn: 2 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.244457ms
+running circle pass c++ code for turn: 3 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.092225ms
+running circle pass c++ code for turn: 4 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 20.272056ms
+running circle pass c++ code for turn: 5 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.377560ms
+running circle pass c++ code for turn: 6 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.719855ms
+running circle pass c++ code for turn: 7 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.890788ms
+running circle pass c++ code for turn: 8 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 26.410151ms
+running circle pass c++ code for turn: 9 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.374829ms
+running circle pass c++ code for turn: 10 and message size: 2048
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.465263ms
+running circle pass c++ code for turn: 1 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.755027ms
+running circle pass c++ code for turn: 2 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.349358ms
+running circle pass c++ code for turn: 3 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.301726ms
+running circle pass c++ code for turn: 4 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.114182ms
+running circle pass c++ code for turn: 5 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 25.155401ms
+running circle pass c++ code for turn: 6 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.472804ms
+running circle pass c++ code for turn: 7 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.613248ms
+running circle pass c++ code for turn: 8 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.320263ms
+running circle pass c++ code for turn: 9 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.293713ms
+running circle pass c++ code for turn: 10 and message size: 4096
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.175832ms
+running circle pass c++ code for turn: 1 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.744501ms
+running circle pass c++ code for turn: 2 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 19.486722ms
+running circle pass c++ code for turn: 3 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.415791ms
+running circle pass c++ code for turn: 4 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.844326ms
+running circle pass c++ code for turn: 5 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.841119ms
+running circle pass c++ code for turn: 6 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 19.627538ms
+running circle pass c++ code for turn: 7 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.334194ms
+running circle pass c++ code for turn: 8 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.747221ms
+running circle pass c++ code for turn: 9 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.036856ms
+running circle pass c++ code for turn: 10 and message size: 8192
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.530339ms
+running circle pass c++ code for turn: 1 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 20.832473ms
+running circle pass c++ code for turn: 2 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.992777ms
+running circle pass c++ code for turn: 3 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.468805ms
+running circle pass c++ code for turn: 4 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 25.376169ms
+running circle pass c++ code for turn: 5 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.659495ms
+running circle pass c++ code for turn: 6 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.759935ms
+running circle pass c++ code for turn: 7 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 36.247920ms
+running circle pass c++ code for turn: 8 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.096256ms
+running circle pass c++ code for turn: 9 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.278855ms
+running circle pass c++ code for turn: 10 and message size: 16384
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.423392ms
+running circle pass c++ code for turn: 1 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.651179ms
+running circle pass c++ code for turn: 2 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.150371ms
+running circle pass c++ code for turn: 3 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.885457ms
+running circle pass c++ code for turn: 4 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.693279ms
+running circle pass c++ code for turn: 5 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.365187ms
+running circle pass c++ code for turn: 6 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.807406ms
+running circle pass c++ code for turn: 7 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.631994ms
+running circle pass c++ code for turn: 8 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.787936ms
+running circle pass c++ code for turn: 9 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.177497ms
+running circle pass c++ code for turn: 10 and message size: 32768
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.195297ms
+running circle pass c++ code for turn: 1 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.919849ms
+running circle pass c++ code for turn: 2 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 25.305284ms
+running circle pass c++ code for turn: 3 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 25.234984ms
+running circle pass c++ code for turn: 4 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.142003ms
+running circle pass c++ code for turn: 5 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.609044ms
+running circle pass c++ code for turn: 6 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.942964ms
+running circle pass c++ code for turn: 7 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.487577ms
+running circle pass c++ code for turn: 8 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.650251ms
+running circle pass c++ code for turn: 9 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.772925ms
+running circle pass c++ code for turn: 10 and message size: 65536
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.857217ms
+running circle pass c++ code for turn: 1 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.601360ms
+running circle pass c++ code for turn: 2 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 25.943492ms
+running circle pass c++ code for turn: 3 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.319145ms
+running circle pass c++ code for turn: 4 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.679437ms
+running circle pass c++ code for turn: 5 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.464175ms
+running circle pass c++ code for turn: 6 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 28.123656ms
+running circle pass c++ code for turn: 7 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.108408ms
+running circle pass c++ code for turn: 8 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.797810ms
+running circle pass c++ code for turn: 9 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 20.493792ms
+running circle pass c++ code for turn: 10 and message size: 131072
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 26.008910ms
+running circle pass c++ code for turn: 1 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.456808ms
+running circle pass c++ code for turn: 2 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.599064ms
+running circle pass c++ code for turn: 3 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 20.836253ms
+running circle pass c++ code for turn: 4 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.762625ms
+running circle pass c++ code for turn: 5 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 22.296235ms
+running circle pass c++ code for turn: 6 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.325197ms
+running circle pass c++ code for turn: 7 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.689276ms
+running circle pass c++ code for turn: 8 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 21.316204ms
+running circle pass c++ code for turn: 9 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.147205ms
+running circle pass c++ code for turn: 10 and message size: 262144
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.615746ms
+running circle pass c++ code for turn: 1 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 25.618330ms
+running circle pass c++ code for turn: 2 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 31.687295ms
+running circle pass c++ code for turn: 3 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 25.782155ms
+running circle pass c++ code for turn: 4 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.449872ms
+running circle pass c++ code for turn: 5 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.330128ms
+running circle pass c++ code for turn: 6 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 25.631262ms
+running circle pass c++ code for turn: 7 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.782808ms
+running circle pass c++ code for turn: 8 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 27.640067ms
+running circle pass c++ code for turn: 9 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 24.248887ms
+running circle pass c++ code for turn: 10 and message size: 524288
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 23.472825ms
+running circle pass c++ code for turn: 1 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 29.633729ms
+running circle pass c++ code for turn: 2 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 81.878126ms
+running circle pass c++ code for turn: 3 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 31.324251ms
+running circle pass c++ code for turn: 4 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 30.442299ms
+running circle pass c++ code for turn: 5 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 30.226914ms
+running circle pass c++ code for turn: 6 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 76.340811ms
+running circle pass c++ code for turn: 7 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 30.448496ms
+running circle pass c++ code for turn: 8 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 29.773766ms
+running circle pass c++ code for turn: 9 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 31.285731ms
+running circle pass c++ code for turn: 10 and message size: 1048576
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 28.803611ms
+running circle pass c++ code for turn: 1 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 36.797531ms
+running circle pass c++ code for turn: 2 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 41.167147ms
+running circle pass c++ code for turn: 3 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 39.633052ms
+running circle pass c++ code for turn: 4 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 38.514368ms
+running circle pass c++ code for turn: 5 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 38.026797ms
+running circle pass c++ code for turn: 6 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 39.795486ms
+running circle pass c++ code for turn: 7 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 39.848337ms
+running circle pass c++ code for turn: 8 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 39.671104ms
+running circle pass c++ code for turn: 9 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 38.704306ms
+running circle pass c++ code for turn: 10 and message size: 2097152
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 39.422648ms
+running circle pass c++ code for turn: 1 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 54.433422ms
+running circle pass c++ code for turn: 2 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 57.921898ms
+running circle pass c++ code for turn: 3 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 57.202248ms
+running circle pass c++ code for turn: 4 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 55.054683ms
+running circle pass c++ code for turn: 5 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 53.221932ms
+running circle pass c++ code for turn: 6 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 53.672686ms
+running circle pass c++ code for turn: 7 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 53.152449ms
+running circle pass c++ code for turn: 8 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 226.151085ms
+running circle pass c++ code for turn: 9 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 96.869908ms
+running circle pass c++ code for turn: 10 and message size: 4194304
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 59.728364ms
+running circle pass c++ code for turn: 1 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 87.506017ms
+running circle pass c++ code for turn: 2 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 87.068975ms
+running circle pass c++ code for turn: 3 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 85.286202ms
+running circle pass c++ code for turn: 4 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 86.647756ms
+running circle pass c++ code for turn: 5 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 87.149007ms
+running circle pass c++ code for turn: 6 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 87.939568ms
+running circle pass c++ code for turn: 7 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 85.600942ms
+running circle pass c++ code for turn: 8 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 87.876402ms
+running circle pass c++ code for turn: 9 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 88.163119ms
+running circle pass c++ code for turn: 10 and message size: 8388608
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 85.952608ms
+running circle pass c++ code for turn: 1 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 155.480867ms
+running circle pass c++ code for turn: 2 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 157.620218ms
+running circle pass c++ code for turn: 3 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 156.470789ms
+running circle pass c++ code for turn: 4 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 156.139217ms
+running circle pass c++ code for turn: 5 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 155.882867ms
+running circle pass c++ code for turn: 6 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 156.247357ms
+running circle pass c++ code for turn: 7 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 168.550536ms
+running circle pass c++ code for turn: 8 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 156.040942ms
+running circle pass c++ code for turn: 9 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 155.731525ms
+running circle pass c++ code for turn: 10 and message size: 16777216
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 156.438405ms
+running circle pass c++ code for turn: 1 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 300.347552ms
+running circle pass c++ code for turn: 2 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 305.390688ms
+running circle pass c++ code for turn: 3 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 305.168934ms
+running circle pass c++ code for turn: 4 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 302.011656ms
+running circle pass c++ code for turn: 5 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 302.780788ms
+running circle pass c++ code for turn: 6 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 300.694646ms
+running circle pass c++ code for turn: 7 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 303.361895ms
+running circle pass c++ code for turn: 8 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 304.313764ms
+running circle pass c++ code for turn: 9 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 299.714057ms
+running circle pass c++ code for turn: 10 and message size: 33554432
+Size of the MPI_COMM_WORLD: 160
+Time spent in code: 302.468821ms
