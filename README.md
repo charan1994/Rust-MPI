@@ -1,41 +1,41 @@
 # MPI support in Rust
-This repository contains basic code and some runtimes to test how well MPI is supported in Rust.
+This repository contains basic code and some runtimes to test how well MPI is currently supported in Rust.
+The project uses [rsmpi crate](https://github.com/rsmpi/rsmpi) paired with the Intel oneAPI MPI.
 
-The repository contains basic examples of a send-receive and an all-to-all communication pattern to send a fixed size of message between the processes. It also contains barriers used to time the program.
+The repository provides basic examples testing send-receive and all-to-all communication patterns for fixed-size messages. It also uses barriers to synchronize timing of the programs.
 
-The development of the code was done using the latest version of Intel oneapi HPC kit(version 2021.1.0) and final deployment on the UB CCR cluster with intel-mpi 2020.1. The different mount and related parts to achieve this can be found as comments in the singularity definiton file. The `%files` and `%environment` have to be updated accordingly based on the individual's development and final runtime environment.
+The development of the code was done using the Intel oneAPI HPC kit (version 2021.1.0). We provide definition to build a [Singularity container](https://sylabs.io/docs/#singularity), which can be deployed in an HPC center. Please refer to the comments in the definition file for more information.
 
-The given examples skip the default-features of rsmpi which contains `user-operations` and `derive` as I don't use these features. You can read more about these optional features on the rsmpi github readme.
+The given examples do not use rsmpi, features such as `user-operations` and `derive`.
 
-## Contents of repository
-The repository contains the following things:
-- Code for all-to-all communication in Rust and C++.
-- Code for point to point, send receive communication in the form of circle pass in Rust and C++.
-- Logs of slurm scripts run at different configuration.
-- Documents and jupyter notebook which compare the Rust and C++ runtimes, storage and other stats.
+## Content
+The repository provides the following components:
+
+- Code for all-to-all performance test in Rust and C++ (`all_to_all` and `all_to_all_cxx`).
+- Code for point-to-point over the ring performance test in Rust and C++ (`circle_pass` and `circle_pass_cxx`).
+- Logs from SLURM jobs run at different configurations (`logs`).
+- Documents and jupyter notebook to compare the Rust and C++ runtimes, storage and other stats (`reports`).
 
 ## Requirements
-1. Intel MPI compiler and related tools (either oneapi or intel-mpi based installs).
+1. Intel MPI compiler and related tools (either oneAPI or Intel-MPI based installs).
 2. Libfabric.
 3. Rust.
-4. Clang compiler for some rust crates which are compiled from source.
+4. Clang compiler for some Rust crates that are built from source.
 
 ## Resources
 - [MPI standard introduction](https://en.wikipedia.org/wiki/Message_Passing_Interface)
 - [Rust basics and installation resources](https://www.rust-lang.org/learn/get-started)
 - [Singularity resources](https://sylabs.io/docs/#singularity)
-- [Rust mpi(rsmpi) github page](https://github.com/rsmpi/rsmpi)
+- [Rust mpi (rsmpi) GitHub page](https://github.com/rsmpi/rsmpi)
 - [rsmpi documentation](http://rsmpi.github.io/rsmpi/mpi/index.html)
 - [more rsmpi examples](https://github.com/rsmpi/rsmpi/tree/master/examples)
-- [one api installation link](https://software.intel.com/content/www/us/en/develop/tools/oneapi/base-toolkit/download.html)
+- [Intel oneAPI installation link](https://software.intel.com/content/www/us/en/develop/tools/oneapi/base-toolkit/download.html)
 
 ## References and credits
 - This repository is the work of student for a winter course of independent study under [Dr. Jaroslaw Zola](https://cse.buffalo.edu/~jzola/).
-- The work was conducted in the college State University of New York at Buffalo. 
-- The code was developed on a laptop and then later scaled and run using slurm scripts on the [UB CCR HPC cluster](http://www.buffalo.edu/ccr.html).
-- The code from the examples of RSMPI github were referred for syntax and general idea of working with MPI using Rust. The github repository and link to examples are mentioned in resources above.
+- The work was conducted at the University at Buffalo. 
+- The code was developed on a laptop, and the resulting containers were deployed and ran at scale under control of SLURM on the [UB CCR HPC cluster](http://www.buffalo.edu/ccr.html).
+- The examples from the rsmpi GitHub repository were used for reference for syntax and general idea of working with MPI using Rust. The GitHub repository and links to the examples are listed in the resources above.
 
-## Things remaining to do
-- Figure out complete mpi crate support issues with default features in singularity container(weird errors which are still not fixed on container but works fine on VM)
-- Add asserts in the code to ensure sanity of program. Currently manually tested and checked code is present(was done extensively for smaller sizes and readable message sizes before moving to larger message sizes)
-- Check for malloc errors in C++ code(seems to occur when large number of ranks are involved and smaller message sizes, maybe something to do with the initialization of vectors)
+## Things to do
+- Resolve the problems with using complete rsmpi crate when building Singularity image (currently, we get unexpected errors when building container, which do not manifest themselves when compiling the project outside of the container).

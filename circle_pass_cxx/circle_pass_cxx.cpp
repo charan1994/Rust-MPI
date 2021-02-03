@@ -1,8 +1,8 @@
-#include <vector>
 #include <mpi.h>
-#include <algorithm>
 #include <iostream>
-#include <random>
+#include <numeric>
+#include <vector>
+
 
 int main(int argc, char *argv[])
 {
@@ -17,6 +17,8 @@ int main(int argc, char *argv[])
         return MPI_Finalize();
     }
 
+    int next_rank = (rank + 1) % size;
+    int previous_rank = (size + rank - 1) % size;
     unsigned long messageSize = std::stoul(argv[1]);
 
     std::vector<int> send_buffer(messageSize);
@@ -27,13 +29,14 @@ int main(int argc, char *argv[])
     MPI_Barrier(MPI_COMM_WORLD);
     auto t0 = MPI_Wtime();
 
-    MPI_Alltoall(send_buffer.data(), 1, MPI_INT, receive_buffer.data(), 1, MPI_INT, MPI_COMM_WORLD);
+    MPI_Status stat;
+    MPI_Sendrecv(send_buffer.data(), messageSize, MPI_INT, next_rank, 111, receive_buffer.data(), messageSize, MPI_INT, previous_rank, 111, MPI_COMM_WORLD, &stat);
 
     MPI_Barrier(MPI_COMM_WORLD);
     auto t1 = MPI_Wtime();
 
     if (rank == 0)
-    {        
+    {
         std::cout << "Size of the MPI_COMM_WORLD: " + std::to_string(size) << std::endl;
         std::cout << "Time spent in code: " + std::to_string((t1 - t0) * 1000) << "ms" << std::endl;
     }

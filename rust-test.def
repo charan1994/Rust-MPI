@@ -2,10 +2,9 @@ Bootstrap: docker
 From: debian:stretch
 
 %environment
-
     # This region is used to set environment based on Intel MPI mpivars.sh, these should match between build and execute host
-    
-    # the root can be intel-mpi instead if intel-mpi is used instead of oneapi and platform can be of the form intel64  
+
+    # the root can be intel-mpi instead if Intel MPI is used instead of oneAPI and platform can be intel64
     export I_MPI_ROOT=/opt/intel/oneapi/mpi/2021.1.1
     export PLATFORM=
 
@@ -19,7 +18,7 @@ From: debian:stretch
     LIBRARY_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib:${LIBRARY_PATH}"; export LIBRARY_PATH
 
     FI_PROVIDER_PATH="${I_MPI_ROOT}/${PLATFORM}/libfabric/lib/prov"; export FI_PROVIDER_PATH
-    
+
     # used for development and testing singularity container on my machine. 
     # bash -c "source /opt/intel/oneapi/mpi/2021.1.1/env/vars.sh"
     # bash -c "source $HOME/.cargo/env"

@@ -2,10 +2,9 @@ Bootstrap: docker
 From: debian:stretch
 
 %environment
-
     # This region is used to set environment based on Intel MPI mpivars.sh, these should match between build and execute host
-    
-    # the root can be intel-mpi instead if intel-mpi is used instead of oneapi and platform can be of the form intel64  
+
+    # the root can be intel-mpi instead if Intel MPI is used instead of oneAPI and platform can be intel64
     export I_MPI_ROOT=/opt/intel/oneapi/mpi/2021.1.1
     export PLATFORM=
 
@@ -23,13 +22,13 @@ From: debian:stretch
 
 %post
     MPI_ROOT=/opt/intel/oneapi/mpi/2021.1.1
-    PROGRAM_NAME=allToAllC
+    PROGRAM_NAME=all_to_all_cxx
 
     PACKAGES="g++ librdmacm1"
 
     apt-get update -y
     apt-get install -y --no-install-recommends $PACKAGES
-    
+
     cd /opt/$PROGRAM_NAME
     bash -c "source $MPI_ROOT/env/vars.sh && mpicxx $PROGRAM_NAME.cpp -std=c++17 -O2 -o $PROGRAM_NAME"
 
@@ -40,8 +39,8 @@ From: debian:stretch
 
     rm -rf $MPI_ROOT
 
-%runscript    
-    PROGRAM_NAME=allToAllC
+%runscript
+    PROGRAM_NAME=all_to_all_cxx
     cd /opt/$PROGRAM_NAME
     ./$PROGRAM_NAME $@
 

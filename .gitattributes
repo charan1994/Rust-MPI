@@ -1,3 +1,2 @@
-# adding the reports part to be ignored in the calculation of lines of language
-reports\ and\ statistics/* linguist-vendored # this didn't work
-reports\ and\ statistics/* linguist-documentation # trying this
+reports/* linguist-vendored
+reports/* linguist-documentation
